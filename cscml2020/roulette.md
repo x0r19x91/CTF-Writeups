@@ -1,3 +1,7 @@
+# Roulette
+
+> My most addictive habit is either gambling or reversing with IDA (500 points)
+
 `main` takes the flag byte at offset 0x28 and xor's it with the bytes from 0x23e0 till the `main`. It then creates a new temp file with the new entry point and executes it. This pattern is followed to validate all the flag characters.  
 Now there can be many bytes which on xoring will give a valid x86 code, but we have to select only one. The first guess is, all the entry points may start with the standard prologue - 0x55 (`push ebp`). But it fails for some offsets.  
 The correct solution is to notice that all the xored entrypoints have a padding of `0xcc` bytes (`int3`), the padding used by MSVC.  
