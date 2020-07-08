@@ -73,7 +73,6 @@ func main() {
         if state == 0 && strings.Index(asm.OpStr, "byte ptr") >= 0 {
             state = 1
             // 1 indexed
-            pos++
             pos = int(asm.Bytes[len(asm.Bytes)-1])-1
             if size < pos {
                 size = pos
