@@ -1,0 +1,2903 @@
+[*] PC: 0xa30
+[*] File Size: 0x2c7c
+[*] No.of Strings: 0x110
+
+000a30    GLOAD     "io"
+000a39    NEWSTR    "stdin"
+000a42    GET
+000a43    ENDSTK
+000a44    NEWSTR    "\x00"
+000a4d    LDC       0
+000a4e    NEWSTR    "\x01"
+000a57    LDC       1
+000a58    NEWSTR    "\x02"
+000a61    LDC       2
+000a62    NEWSTR    "\x03"
+000a6b    LDC       3
+000a6c    NEWSTR    "\x04"
+000a75    LDC       4
+000a76    NEWSTR    "\x05"
+000a7f    LDC       5
+000a80    NEWSTR    "\x06"
+000a89    LDC       0x06
+000a8b    NEWSTR    "\a"
+000a94    LDC       0x07
+000a96    NEWSTR    "\b"
+000a9f    LDC       0x08
+000aa1    NEWSTR    "\t"
+000aaa    LDC       0x09
+000aac    NEWSTR    "\n"
+000ab5    LDC       0x0a
+000ab7    NEWSTR    "\v"
+000ac0    LDC       0x0b
+000ac2    NEWSTR    "\f"
+000acb    LDC       0x0c
+000acd    NEWSTR    "\r"
+000ad6    LDC       0x0d
+000ad8    NEWSTR    "\x0e"
+000ae1    LDC       0x0e
+000ae3    NEWSTR    "\x0f"
+000aec    LDC       0x0f
+000aee    NEWSTR    "\x10"
+000af7    LDC       0x10
+000af9    NEWSTR    "\x11"
+000b02    LDC       0x11
+000b04    NEWSTR    "\x12"
+000b0d    LDC       0x12
+000b0f    NEWSTR    "\x13"
+000b18    LDC       0x13
+000b1a    NEWSTR    "\x14"
+000b23    LDC       0x14
+000b25    NEWSTR    "\x15"
+000b2e    LDC       0x15
+000b30    NEWSTR    "\x16"
+000b39    LDC       0x16
+000b3b    NEWSTR    "\x17"
+000b44    LDC       0x17
+000b46    NEWSTR    "\x18"
+000b4f    LDC       0x18
+000b51    NEWSTR    "\x19"
+000b5a    LDC       0x19
+000b5c    NEWSTR    "\x1a"
+000b65    LDC       0x1a
+000b67    NEWSTR    "\x1b"
+000b70    LDC       0x1b
+000b72    NEWSTR    "\x1c"
+000b7b    LDC       0x1c
+000b7d    NEWSTR    "\x1d"
+000b86    LDC       0x1d
+000b88    NEWSTR    "\x1e"
+000b91    LDC       0x1e
+000b93    NEWSTR    "\x1f"
+000b9c    LDC       0x1f
+000b9e    NEWSTR    " "
+000ba7    LDC       0x20
+000ba9    NEWSTR    "!"
+000bb2    LDC       0x21
+000bb4    NEWSTR    "\""
+000bbd    LDC       0x22
+000bbf    NEWSTR    "#"
+000bc8    LDC       0x23
+000bca    NEWSTR    "$"
+000bd3    LDC       0x24
+000bd5    NEWSTR    "%"
+000bde    LDC       0x25
+000be0    NEWSTR    "&"
+000be9    LDC       0x26
+000beb    NEWSTR    "'"
+000bf4    LDC       0x27
+000bf6    NEWSTR    "("
+000bff    LDC       0x28
+000c01    NEWSTR    ")"
+000c0a    LDC       0x29
+000c0c    NEWSTR    "*"
+000c15    LDC       0x2a
+000c17    NEWSTR    "+"
+000c20    LDC       0x2b
+000c22    NEWSTR    ","
+000c2b    LDC       0x2c
+000c2d    NEWSTR    "-"
+000c36    LDC       0x2d
+000c38    NEWSTR    "."
+000c41    LDC       0x2e
+000c43    NEWSTR    "/"
+000c4c    LDC       0x2f
+000c4e    NEWSTR    "0"
+000c57    LDC       0x30
+000c59    NEWSTR    "1"
+000c62    LDC       0x31
+000c64    NEWSTR    "2"
+000c6d    LDC       0x32
+000c6f    NEWSTR    "3"
+000c78    LDC       0x33
+000c7a    NEWSTR    "4"
+000c83    LDC       0x34
+000c85    NEWSTR    "5"
+000c8e    LDC       0x35
+000c90    NEWSTR    "6"
+000c99    LDC       0x36
+000c9b    NEWSTR    "7"
+000ca4    LDC       0x37
+000ca6    NEWSTR    "8"
+000caf    LDC       0x38
+000cb1    NEWSTR    "9"
+000cba    LDC       0x39
+000cbc    NEWSTR    ":"
+000cc5    LDC       0x3a
+000cc7    NEWSTR    ";"
+000cd0    LDC       0x3b
+000cd2    NEWSTR    "<"
+000cdb    LDC       0x3c
+000cdd    NEWSTR    "="
+000ce6    LDC       0x3d
+000ce8    NEWSTR    ">"
+000cf1    LDC       0x3e
+000cf3    NEWSTR    "?"
+000cfc    LDC       0x3f
+000cfe    NEWSTR    "@"
+000d07    LDC       0x40
+000d09    NEWSTR    "A"
+000d12    LDC       0x41
+000d14    NEWSTR    "B"
+000d1d    LDC       0x42
+000d1f    NEWSTR    "C"
+000d28    LDC       0x43
+000d2a    NEWSTR    "D"
+000d33    LDC       0x44
+000d35    NEWSTR    "E"
+000d3e    LDC       0x45
+000d40    NEWSTR    "F"
+000d49    LDC       0x46
+000d4b    NEWSTR    "G"
+000d54    LDC       0x47
+000d56    NEWSTR    "H"
+000d5f    LDC       0x48
+000d61    NEWSTR    "I"
+000d6a    LDC       0x49
+000d6c    NEWSTR    "J"
+000d75    LDC       0x4a
+000d77    NEWSTR    "K"
+000d80    LDC       0x4b
+000d82    NEWSTR    "L"
+000d8b    LDC       0x4c
+000d8d    NEWSTR    "M"
+000d96    LDC       0x4d
+000d98    NEWSTR    "N"
+000da1    LDC       0x4e
+000da3    NEWSTR    "O"
+000dac    LDC       0x4f
+000dae    NEWSTR    "P"
+000db7    LDC       0x50
+000db9    NEWSTR    "Q"
+000dc2    LDC       0x51
+000dc4    NEWSTR    "R"
+000dcd    LDC       0x52
+000dcf    NEWSTR    "S"
+000dd8    LDC       0x53
+000dda    NEWSTR    "T"
+000de3    LDC       0x54
+000de5    NEWSTR    "U"
+000dee    LDC       0x55
+000df0    NEWSTR    "V"
+000df9    LDC       0x56
+000dfb    NEWSTR    "W"
+000e04    LDC       0x57
+000e06    NEWSTR    "X"
+000e0f    LDC       0x58
+000e11    NEWSTR    "Y"
+000e1a    LDC       0x59
+000e1c    NEWSTR    "Z"
+000e25    LDC       0x5a
+000e27    NEWSTR    "["
+000e30    LDC       0x5b
+000e32    NEWSTR    "\\"
+000e3b    LDC       0x5c
+000e3d    NEWSTR    "]"
+000e46    LDC       0x5d
+000e48    NEWSTR    "^"
+000e51    LDC       0x5e
+000e53    NEWSTR    "_"
+000e5c    LDC       0x5f
+000e5e    NEWSTR    "`"
+000e67    LDC       0x60
+000e69    NEWSTR    "a"
+000e72    LDC       0x61
+000e74    NEWSTR    "b"
+000e7d    LDC       0x62
+000e7f    NEWSTR    "c"
+000e88    LDC       0x63
+000e8a    NEWSTR    "d"
+000e93    LDC       0x64
+000e95    NEWSTR    "e"
+000e9e    LDC       0x65
+000ea0    NEWSTR    "f"
+000ea9    LDC       0x66
+000eab    NEWSTR    "g"
+000eb4    LDC       0x67
+000eb6    NEWSTR    "h"
+000ebf    LDC       0x68
+000ec1    NEWSTR    "i"
+000eca    LDC       0x69
+000ecc    NEWSTR    "j"
+000ed5    LDC       0x6a
+000ed7    NEWSTR    "k"
+000ee0    LDC       0x6b
+000ee2    NEWSTR    "l"
+000eeb    LDC       0x6c
+000eed    NEWSTR    "m"
+000ef6    LDC       0x6d
+000ef8    NEWSTR    "n"
+000f01    LDC       0x6e
+000f03    NEWSTR    "o"
+000f0c    LDC       0x6f
+000f0e    NEWSTR    "p"
+000f17    LDC       0x70
+000f19    NEWSTR    "q"
+000f22    LDC       0x71
+000f24    NEWSTR    "r"
+000f2d    LDC       0x72
+000f2f    NEWSTR    "s"
+000f38    LDC       0x73
+000f3a    NEWSTR    "t"
+000f43    LDC       0x74
+000f45    NEWSTR    "u"
+000f4e    LDC       0x75
+000f50    NEWSTR    "v"
+000f59    LDC       0x76
+000f5b    NEWSTR    "w"
+000f64    LDC       0x77
+000f66    NEWSTR    "x"
+000f6f    LDC       0x78
+000f71    NEWSTR    "y"
+000f7a    LDC       0x79
+000f7c    NEWSTR    "z"
+000f85    LDC       0x7a
+000f87    NEWSTR    "{"
+000f90    LDC       0x7b
+000f92    NEWSTR    "|"
+000f9b    LDC       0x7c
+000f9d    NEWSTR    "}"
+000fa6    LDC       0x7d
+000fa8    NEWSTR    "~"
+000fb1    LDC       0x7e
+000fb3    NEWSTR    "\u007f"
+000fbc    LDC       0x7f
+000fbe    NEWSTR    "\x80"
+000fc7    LDC       0x80
+000fd0    NEWSTR    "\x81"
+000fd9    LDC       0x81
+000fe2    NEWSTR    "\x82"
+000feb    LDC       0x82
+000ff4    NEWSTR    "\x83"
+000ffd    LDC       0x83
+001006    NEWSTR    "\x84"
+00100f    LDC       0x84
+001018    NEWSTR    "\x85"
+001021    LDC       0x85
+00102a    NEWSTR    "\x86"
+001033    LDC       0x86
+00103c    NEWSTR    "\x87"
+001045    LDC       0x87
+00104e    NEWSTR    "\x88"
+001057    LDC       0x88
+001060    NEWSTR    "\x89"
+001069    LDC       0x89
+001072    NEWSTR    "\x8a"
+00107b    LDC       0x8a
+001084    NEWSTR    "\x8b"
+00108d    LDC       0x8b
+001096    NEWSTR    "\x8c"
+00109f    LDC       0x8c
+0010a8    NEWSTR    "\x8d"
+0010b1    LDC       0x8d
+0010ba    NEWSTR    "\x8e"
+0010c3    LDC       0x8e
+0010cc    NEWSTR    "\x8f"
+0010d5    LDC       0x8f
+0010de    NEWSTR    "\x90"
+0010e7    LDC       0x90
+0010f0    NEWSTR    "\x91"
+0010f9    LDC       0x91
+001102    NEWSTR    "\x92"
+00110b    LDC       0x92
+001114    NEWSTR    "\x93"
+00111d    LDC       0x93
+001126    NEWSTR    "\x94"
+00112f    LDC       0x94
+001138    NEWSTR    "\x95"
+001141    LDC       0x95
+00114a    NEWSTR    "\x96"
+001153    LDC       0x96
+00115c    NEWSTR    "\x97"
+001165    LDC       0x97
+00116e    NEWSTR    "\x98"
+001177    LDC       0x98
+001180    NEWSTR    "\x99"
+001189    LDC       0x99
+001192    NEWSTR    "\x9a"
+00119b    LDC       0x9a
+0011a4    NEWSTR    "\x9b"
+0011ad    LDC       0x9b
+0011b6    NEWSTR    "\x9c"
+0011bf    LDC       0x9c
+0011c8    NEWSTR    "\x9d"
+0011d1    LDC       0x9d
+0011da    NEWSTR    "\x9e"
+0011e3    LDC       0x9e
+0011ec    NEWSTR    "\x9f"
+0011f5    LDC       0x9f
+0011fe    NEWSTR    "\xa0"
+001207    LDC       0xa0
+001210    NEWSTR    "\xa1"
+001219    LDC       0xa1
+001222    NEWSTR    "\xa2"
+00122b    LDC       0xa2
+001234    NEWSTR    "\xa3"
+00123d    LDC       0xa3
+001246    NEWSTR    "\xa4"
+00124f    LDC       0xa4
+001258    NEWSTR    "\xa5"
+001261    LDC       0xa5
+00126a    NEWSTR    "\xa6"
+001273    LDC       0xa6
+00127c    NEWSTR    "\xa7"
+001285    LDC       0xa7
+00128e    NEWSTR    "\xa8"
+001297    LDC       0xa8
+0012a0    NEWSTR    "\xa9"
+0012a9    LDC       0xa9
+0012b2    NEWSTR    "\xaa"
+0012bb    LDC       0xaa
+0012c4    NEWSTR    "\xab"
+0012cd    LDC       0xab
+0012d6    NEWSTR    "\xac"
+0012df    LDC       0xac
+0012e8    NEWSTR    "\xad"
+0012f1    LDC       0xad
+0012fa    NEWSTR    "\xae"
+001303    LDC       0xae
+00130c    NEWSTR    "\xaf"
+001315    LDC       0xaf
+00131e    NEWSTR    "\xb0"
+001327    LDC       0xb0
+001330    NEWSTR    "\xb1"
+001339    LDC       0xb1
+001342    NEWSTR    "\xb2"
+00134b    LDC       0xb2
+001354    NEWSTR    "\xb3"
+00135d    LDC       0xb3
+001366    NEWSTR    "\xb4"
+00136f    LDC       0xb4
+001378    NEWSTR    "\xb5"
+001381    LDC       0xb5
+00138a    NEWSTR    "\xb6"
+001393    LDC       0xb6
+00139c    NEWSTR    "\xb7"
+0013a5    LDC       0xb7
+0013ae    NEWSTR    "\xb8"
+0013b7    LDC       0xb8
+0013c0    NEWSTR    "\xb9"
+0013c9    LDC       0xb9
+0013d2    NEWSTR    "\xba"
+0013db    LDC       0xba
+0013e4    NEWSTR    "\xbb"
+0013ed    LDC       0xbb
+0013f6    NEWSTR    "\xbc"
+0013ff    LDC       0xbc
+001408    NEWSTR    "\xbd"
+001411    LDC       0xbd
+00141a    NEWSTR    "\xbe"
+001423    LDC       0xbe
+00142c    NEWSTR    "\xbf"
+001435    LDC       0xbf
+00143e    NEWSTR    "\xc0"
+001447    LDC       0xc0
+001450    NEWSTR    "\xc1"
+001459    LDC       0xc1
+001462    NEWSTR    "\xc2"
+00146b    LDC       0xc2
+001474    NEWSTR    "\xc3"
+00147d    LDC       0xc3
+001486    NEWSTR    "\xc4"
+00148f    LDC       0xc4
+001498    NEWSTR    "\xc5"
+0014a1    LDC       0xc5
+0014aa    NEWSTR    "\xc6"
+0014b3    LDC       0xc6
+0014bc    NEWSTR    "\xc7"
+0014c5    LDC       0xc7
+0014ce    NEWSTR    "\xc8"
+0014d7    LDC       0xc8
+0014e0    NEWSTR    "\xc9"
+0014e9    LDC       0xc9
+0014f2    NEWSTR    "\xca"
+0014fb    LDC       0xca
+001504    NEWSTR    "\xcb"
+00150d    LDC       0xcb
+001516    NEWSTR    "\xcc"
+00151f    LDC       0xcc
+001528    NEWSTR    "\xcd"
+001531    LDC       0xcd
+00153a    NEWSTR    "\xce"
+001543    LDC       0xce
+00154c    NEWSTR    "\xcf"
+001555    LDC       0xcf
+00155e    NEWSTR    "\xd0"
+001567    LDC       0xd0
+001570    NEWSTR    "\xd1"
+001579    LDC       0xd1
+001582    NEWSTR    "\xd2"
+00158b    LDC       0xd2
+001594    NEWSTR    "\xd3"
+00159d    LDC       0xd3
+0015a6    NEWSTR    "\xd4"
+0015af    LDC       0xd4
+0015b8    NEWSTR    "\xd5"
+0015c1    LDC       0xd5
+0015ca    NEWSTR    "\xd6"
+0015d3    LDC       0xd6
+0015dc    NEWSTR    "\xd7"
+0015e5    LDC       0xd7
+0015ee    NEWSTR    "\xd8"
+0015f7    LDC       0xd8
+001600    NEWSTR    "\xd9"
+001609    LDC       0xd9
+001612    NEWSTR    "\xda"
+00161b    LDC       0xda
+001624    NEWSTR    "\xdb"
+00162d    LDC       0xdb
+001636    NEWSTR    "\xdc"
+00163f    LDC       0xdc
+001648    NEWSTR    "\xdd"
+001651    LDC       0xdd
+00165a    NEWSTR    "\xde"
+001663    LDC       0xde
+00166c    NEWSTR    "\xdf"
+001675    LDC       0xdf
+00167e    NEWSTR    "\xe0"
+001687    LDC       0xe0
+001690    NEWSTR    "\xe1"
+001699    LDC       0xe1
+0016a2    NEWSTR    "\xe2"
+0016ab    LDC       0xe2
+0016b4    NEWSTR    "\xe3"
+0016bd    LDC       0xe3
+0016c6    NEWSTR    "\xe4"
+0016cf    LDC       0xe4
+0016d8    NEWSTR    "\xe5"
+0016e1    LDC       0xe5
+0016ea    NEWSTR    "\xe6"
+0016f3    LDC       0xe6
+0016fc    NEWSTR    "\xe7"
+001705    LDC       0xe7
+00170e    NEWSTR    "\xe8"
+001717    LDC       0xe8
+001720    NEWSTR    "\xe9"
+001729    LDC       0xe9
+001732    NEWSTR    "\xea"
+00173b    LDC       0xea
+001744    NEWSTR    "\xeb"
+00174d    LDC       0xeb
+001756    NEWSTR    "\xec"
+00175f    LDC       0xec
+001768    NEWSTR    "\xed"
+001771    LDC       0xed
+00177a    NEWSTR    "\xee"
+001783    LDC       0xee
+00178c    NEWSTR    "\xef"
+001795    LDC       0xef
+00179e    NEWSTR    "\xf0"
+0017a7    LDC       0xf0
+0017b0    NEWSTR    "\xf1"
+0017b9    LDC       0xf1
+0017c2    NEWSTR    "\xf2"
+0017cb    LDC       0xf2
+0017d4    NEWSTR    "\xf3"
+0017dd    LDC       0xf3
+0017e6    NEWSTR    "\xf4"
+0017ef    LDC       0xf4
+0017f8    NEWSTR    "\xf5"
+001801    LDC       0xf5
+00180a    NEWSTR    "\xf6"
+001813    LDC       0xf6
+00181c    NEWSTR    "\xf7"
+001825    LDC       0xf7
+00182e    NEWSTR    "\xf8"
+001837    LDC       0xf8
+001840    NEWSTR    "\xf9"
+001849    LDC       0xf9
+001852    NEWSTR    "\xfa"
+00185b    LDC       0xfa
+001864    NEWSTR    "\xfb"
+00186d    LDC       0xfb
+001876    NEWSTR    "\xfc"
+00187f    LDC       0xfc
+001888    NEWSTR    "\xfd"
+001891    LDC       0xfd
+00189a    NEWSTR    "\xfe"
+0018a3    LDC       0xfe
+0018ac    NEWSTR    "\xff"
+0018b5    LDC       0xff
+0018be    NEW_TABLE
+0018bf    NEWSTR    "Welcome to VM Reloaded"
+0018c8    PRINT
+0018c9    NEWSTR    "Input the flag: "
+0018d2    PRINT
+0018d3    LDLOC     0
+0018d5    NEWSTR    "read"
+0018de    GET
+0018df    INIT_CALL
+0018e0    LDLOC     0
+0018e2    CALL
+0018e3    ENDSTK
+0018e4    NEW_LIST
+0018e5    LDLOC     2
+0018e7    INIT_FOR
+0018e8    ENDSTK
+0018e9    ITER
+0018ea    BR.FALSE    001910
+0018f3    STLOC     4
+0018f5    LDLOC     3
+0018f7    INIT_METHOD_CALL    "push"
+001900    LDLOC     1
+001902    LDLOC     4
+001904    GET
+001905    CALL
+001906    POP
+001907    BR        0018e9
+001910    END_FOR
+001911    LDLOC     3
+001913    LEN
+001914    LDC       0x41
+001916    CMP.EQ
+001917    NOT
+001918    BR.FALSE    001934
+001921    NEWSTR    "The flag is wrong"
+00192a    PRINT
+00192b    BR        002c7b
+001934    LDLOC     3
+001936    LDC       0
+001937    GET
+001938    LDLOC     3
+00193a    LDC       0x39
+00193c    GET
+00193d    XOR
+00193e    LDLOC     3
+001940    LDC       0
+001941    GET
+001942    LDLOC     3
+001944    LDC       0x39
+001946    GET
+001947    AND
+001948    LDC       1
+001949    SHL
+00194a    ADD
+00194b    LDC       0xae
+001954    OR
+001955    LDLOC     3
+001957    LDC       0
+001958    GET
+001959    LDLOC     3
+00195b    LDC       0x39
+00195d    GET
+00195e    XOR
+00195f    LDLOC     3
+001961    LDC       0
+001962    GET
+001963    LDLOC     3
+001965    LDC       0x39
+001967    GET
+001968    AND
+001969    LDC       1
+00196a    SHL
+00196b    ADD
+00196c    LDC       0xae
+001975    AND
+001976    ADD
+001977    LDC       0xff
+001980    AND
+001981    LDC       0x54
+001983    CMP.EQ
+001984    DUP
+001985    BR.FALSE    002c4b
+00198e    POP
+00198f    LDLOC     3
+001991    LDC       1
+001992    GET
+001993    LDLOC     3
+001995    LDC       0x3d
+001997    GET
+001998    XOR
+001999    LDLOC     3
+00199b    LDC       1
+00199c    GET
+00199d    LDLOC     3
+00199f    LDC       0x3d
+0019a1    GET
+0019a2    AND
+0019a3    LDC       1
+0019a4    SHL
+0019a5    ADD
+0019a6    LDC       0x63
+0019a8    OR
+0019a9    LDLOC     3
+0019ab    LDC       1
+0019ac    GET
+0019ad    LDLOC     3
+0019af    LDC       0x3d
+0019b1    GET
+0019b2    XOR
+0019b3    LDLOC     3
+0019b5    LDC       1
+0019b6    GET
+0019b7    LDLOC     3
+0019b9    LDC       0x3d
+0019bb    GET
+0019bc    AND
+0019bd    LDC       1
+0019be    SHL
+0019bf    ADD
+0019c0    LDC       0x63
+0019c2    AND
+0019c3    ADD
+0019c4    LDC       0xff
+0019cd    AND
+0019ce    LDC       2
+0019cf    CMP.EQ
+0019d0    DUP
+0019d1    BR.FALSE    002c4b
+0019da    POP
+0019db    LDLOC     3
+0019dd    LDC       2
+0019de    GET
+0019df    LDC       0xef
+0019e8    XOR
+0019e9    LDC       2
+0019ea    LDLOC     3
+0019ec    LDC       2
+0019ed    GET
+0019ee    LDC       0xef
+0019f7    AND
+0019f8    MUL
+0019f9    ADD
+0019fa    LDC       0xff
+001a03    AND
+001a04    LDC       0x62
+001a06    CMP.EQ
+001a07    DUP
+001a08    BR.FALSE    002c4b
+001a11    POP
+001a12    LDLOC     3
+001a14    LDC       3
+001a15    GET
+001a16    LDLOC     3
+001a18    LDC       0x38
+001a1a    GET
+001a1b    XOR
+001a1c    LDLOC     3
+001a1e    LDC       3
+001a1f    GET
+001a20    LDLOC     3
+001a22    LDC       0x38
+001a24    GET
+001a25    AND
+001a26    LDC       1
+001a27    SHL
+001a28    ADD
+001a29    LDC       0x3e
+001a2b    OR
+001a2c    LDLOC     3
+001a2e    LDC       3
+001a2f    GET
+001a30    LDLOC     3
+001a32    LDC       0x38
+001a34    GET
+001a35    XOR
+001a36    LDLOC     3
+001a38    LDC       3
+001a39    GET
+001a3a    LDLOC     3
+001a3c    LDC       0x38
+001a3e    GET
+001a3f    AND
+001a40    LDC       1
+001a41    SHL
+001a42    ADD
+001a43    LDC       0x3e
+001a45    AND
+001a46    ADD
+001a47    LDC       0xff
+001a50    AND
+001a51    LDC       2
+001a52    CMP.EQ
+001a53    DUP
+001a54    BR.FALSE    002c4b
+001a5d    POP
+001a5e    LDLOC     3
+001a60    LDC       4
+001a61    GET
+001a62    LDLOC     3
+001a64    LDC       0x07
+001a66    GET
+001a67    XOR
+001a68    LDLOC     3
+001a6a    LDC       4
+001a6b    GET
+001a6c    LDLOC     3
+001a6e    LDC       0x07
+001a70    GET
+001a71    AND
+001a72    LDC       1
+001a73    SHL
+001a74    ADD
+001a75    LDC       0xa9
+001a7e    OR
+001a7f    LDLOC     3
+001a81    LDC       4
+001a82    GET
+001a83    LDLOC     3
+001a85    LDC       0x07
+001a87    GET
+001a88    XOR
+001a89    LDLOC     3
+001a8b    LDC       4
+001a8c    GET
+001a8d    LDLOC     3
+001a8f    LDC       0x07
+001a91    GET
+001a92    AND
+001a93    LDC       1
+001a94    SHL
+001a95    ADD
+001a96    LDC       0xa9
+001a9f    AND
+001aa0    ADD
+001aa1    LDC       0xff
+001aaa    AND
+001aab    LDC       0x80
+001ab4    CMP.EQ
+001ab5    DUP
+001ab6    BR.FALSE    002c4b
+001abf    POP
+001ac0    LDLOC     3
+001ac2    LDC       5
+001ac3    GET
+001ac4    LDLOC     3
+001ac6    LDC       0x3f
+001ac8    GET
+001ac9    XOR
+001aca    LDLOC     3
+001acc    LDC       5
+001acd    GET
+001ace    LDLOC     3
+001ad0    LDC       0x3f
+001ad2    GET
+001ad3    AND
+001ad4    LDC       1
+001ad5    SHL
+001ad6    ADD
+001ad7    LDC       0x62
+001ad9    OR
+001ada    LDLOC     3
+001adc    LDC       5
+001add    GET
+001ade    LDLOC     3
+001ae0    LDC       0x3f
+001ae2    GET
+001ae3    XOR
+001ae4    LDLOC     3
+001ae6    LDC       5
+001ae7    GET
+001ae8    LDLOC     3
+001aea    LDC       0x3f
+001aec    GET
+001aed    AND
+001aee    LDC       1
+001aef    SHL
+001af0    ADD
+001af1    LDC       0x62
+001af3    AND
+001af4    ADD
+001af5    LDC       0xff
+001afe    AND
+001aff    LDC       0x2b
+001b01    CMP.EQ
+001b02    DUP
+001b03    BR.FALSE    002c4b
+001b0c    POP
+001b0d    LDLOC     3
+001b0f    LDC       0x06
+001b11    GET
+001b12    LDLOC     3
+001b14    LDC       0x1b
+001b16    GET
+001b17    XOR
+001b18    LDLOC     3
+001b1a    LDC       0x06
+001b1c    GET
+001b1d    LDLOC     3
+001b1f    LDC       0x1b
+001b21    GET
+001b22    AND
+001b23    LDC       1
+001b24    SHL
+001b25    ADD
+001b26    LDC       0x11
+001b28    OR
+001b29    LDLOC     3
+001b2b    LDC       0x06
+001b2d    GET
+001b2e    LDLOC     3
+001b30    LDC       0x1b
+001b32    GET
+001b33    XOR
+001b34    LDLOC     3
+001b36    LDC       0x06
+001b38    GET
+001b39    LDLOC     3
+001b3b    LDC       0x1b
+001b3d    GET
+001b3e    AND
+001b3f    LDC       1
+001b40    SHL
+001b41    ADD
+001b42    LDC       0x11
+001b44    AND
+001b45    ADD
+001b46    LDC       0xff
+001b4f    AND
+001b50    LDC       0xdf
+001b59    CMP.EQ
+001b5a    DUP
+001b5b    BR.FALSE    002c4b
+001b64    POP
+001b65    LDLOC     3
+001b67    LDC       0x07
+001b69    GET
+001b6a    LDLOC     3
+001b6c    LDC       0x3e
+001b6e    GET
+001b6f    XOR
+001b70    LDLOC     3
+001b72    LDC       0x07
+001b74    GET
+001b75    LDLOC     3
+001b77    LDC       0x3e
+001b79    GET
+001b7a    AND
+001b7b    LDC       1
+001b7c    SHL
+001b7d    ADD
+001b7e    LDC       0xfc
+001b87    OR
+001b88    LDLOC     3
+001b8a    LDC       0x07
+001b8c    GET
+001b8d    LDLOC     3
+001b8f    LDC       0x3e
+001b91    GET
+001b92    XOR
+001b93    LDLOC     3
+001b95    LDC       0x07
+001b97    GET
+001b98    LDLOC     3
+001b9a    LDC       0x3e
+001b9c    GET
+001b9d    AND
+001b9e    LDC       1
+001b9f    SHL
+001ba0    ADD
+001ba1    LDC       0xfc
+001baa    AND
+001bab    ADD
+001bac    LDC       0xff
+001bb5    AND
+001bb6    LDC       0xce
+001bbf    CMP.EQ
+001bc0    DUP
+001bc1    BR.FALSE    002c4b
+001bca    POP
+001bcb    LDLOC     3
+001bcd    LDC       0x08
+001bcf    GET
+001bd0    LDLOC     3
+001bd2    LDC       0x36
+001bd4    GET
+001bd5    XOR
+001bd6    LDLOC     3
+001bd8    LDC       0x08
+001bda    GET
+001bdb    LDLOC     3
+001bdd    LDC       0x36
+001bdf    GET
+001be0    AND
+001be1    LDC       1
+001be2    SHL
+001be3    ADD
+001be4    LDC       0x58
+001be6    OR
+001be7    LDLOC     3
+001be9    LDC       0x08
+001beb    GET
+001bec    LDLOC     3
+001bee    LDC       0x36
+001bf0    GET
+001bf1    XOR
+001bf2    LDLOC     3
+001bf4    LDC       0x08
+001bf6    GET
+001bf7    LDLOC     3
+001bf9    LDC       0x36
+001bfb    GET
+001bfc    AND
+001bfd    LDC       1
+001bfe    SHL
+001bff    ADD
+001c00    LDC       0x58
+001c02    AND
+001c03    ADD
+001c04    LDC       0xff
+001c0d    AND
+001c0e    LDC       0x3b
+001c10    CMP.EQ
+001c11    DUP
+001c12    BR.FALSE    002c4b
+001c1b    POP
+001c1c    LDLOC     3
+001c1e    LDC       0x09
+001c20    GET
+001c21    LDLOC     3
+001c23    LDC       0x34
+001c25    GET
+001c26    XOR
+001c27    LDLOC     3
+001c29    LDC       0x09
+001c2b    GET
+001c2c    LDLOC     3
+001c2e    LDC       0x34
+001c30    GET
+001c31    AND
+001c32    LDC       1
+001c33    SHL
+001c34    ADD
+001c35    LDC       0x0a
+001c37    OR
+001c38    LDLOC     3
+001c3a    LDC       0x09
+001c3c    GET
+001c3d    LDLOC     3
+001c3f    LDC       0x34
+001c41    GET
+001c42    XOR
+001c43    LDLOC     3
+001c45    LDC       0x09
+001c47    GET
+001c48    LDLOC     3
+001c4a    LDC       0x34
+001c4c    GET
+001c4d    AND
+001c4e    LDC       1
+001c4f    SHL
+001c50    ADD
+001c51    LDC       0x0a
+001c53    AND
+001c54    ADD
+001c55    LDC       0xff
+001c5e    AND
+001c5f    LDC       0xe2
+001c68    CMP.EQ
+001c69    DUP
+001c6a    BR.FALSE    002c4b
+001c73    POP
+001c74    LDLOC     3
+001c76    LDC       0x0a
+001c78    GET
+001c79    LDC       0xaf
+001c82    XOR
+001c83    LDC       2
+001c84    LDLOC     3
+001c86    LDC       0x0a
+001c88    GET
+001c89    LDC       0xaf
+001c92    AND
+001c93    MUL
+001c94    ADD
+001c95    LDC       0xff
+001c9e    AND
+001c9f    LDC       0x10
+001ca1    CMP.EQ
+001ca2    DUP
+001ca3    BR.FALSE    002c4b
+001cac    POP
+001cad    LDLOC     3
+001caf    LDC       0x0b
+001cb1    GET
+001cb2    LDLOC     3
+001cb4    LDC       0x07
+001cb6    GET
+001cb7    XOR
+001cb8    LDLOC     3
+001cba    LDC       0x0b
+001cbc    GET
+001cbd    LDLOC     3
+001cbf    LDC       0x07
+001cc1    GET
+001cc2    AND
+001cc3    LDC       1
+001cc4    SHL
+001cc5    ADD
+001cc6    LDC       0x17
+001cc8    OR
+001cc9    LDLOC     3
+001ccb    LDC       0x0b
+001ccd    GET
+001cce    LDLOC     3
+001cd0    LDC       0x07
+001cd2    GET
+001cd3    XOR
+001cd4    LDLOC     3
+001cd6    LDC       0x0b
+001cd8    GET
+001cd9    LDLOC     3
+001cdb    LDC       0x07
+001cdd    GET
+001cde    AND
+001cdf    LDC       1
+001ce0    SHL
+001ce1    ADD
+001ce2    LDC       0x17
+001ce4    AND
+001ce5    ADD
+001ce6    LDC       0xff
+001cef    AND
+001cf0    LDC       0xfe
+001cf9    CMP.EQ
+001cfa    DUP
+001cfb    BR.FALSE    002c4b
+001d04    POP
+001d05    LDLOC     3
+001d07    LDC       0x0c
+001d09    GET
+001d0a    LDLOC     3
+001d0c    LDC       0x0d
+001d0e    GET
+001d0f    XOR
+001d10    LDLOC     3
+001d12    LDC       0x0c
+001d14    GET
+001d15    LDLOC     3
+001d17    LDC       0x0d
+001d19    GET
+001d1a    AND
+001d1b    LDC       1
+001d1c    SHL
+001d1d    ADD
+001d1e    LDC       0xda
+001d27    OR
+001d28    LDLOC     3
+001d2a    LDC       0x0c
+001d2c    GET
+001d2d    LDLOC     3
+001d2f    LDC       0x0d
+001d31    GET
+001d32    XOR
+001d33    LDLOC     3
+001d35    LDC       0x0c
+001d37    GET
+001d38    LDLOC     3
+001d3a    LDC       0x0d
+001d3c    GET
+001d3d    AND
+001d3e    LDC       1
+001d3f    SHL
+001d40    ADD
+001d41    LDC       0xda
+001d4a    AND
+001d4b    ADD
+001d4c    LDC       0xff
+001d55    AND
+001d56    LDC       0xb2
+001d5f    CMP.EQ
+001d60    DUP
+001d61    BR.FALSE    002c4b
+001d6a    POP
+001d6b    LDLOC     3
+001d6d    LDC       0x0d
+001d6f    GET
+001d70    LDLOC     3
+001d72    LDC       0x17
+001d74    GET
+001d75    XOR
+001d76    LDLOC     3
+001d78    LDC       0x0d
+001d7a    GET
+001d7b    LDLOC     3
+001d7d    LDC       0x17
+001d7f    GET
+001d80    AND
+001d81    LDC       1
+001d82    SHL
+001d83    ADD
+001d84    LDC       0x5f
+001d86    OR
+001d87    LDLOC     3
+001d89    LDC       0x0d
+001d8b    GET
+001d8c    LDLOC     3
+001d8e    LDC       0x17
+001d90    GET
+001d91    XOR
+001d92    LDLOC     3
+001d94    LDC       0x0d
+001d96    GET
+001d97    LDLOC     3
+001d99    LDC       0x17
+001d9b    GET
+001d9c    AND
+001d9d    LDC       1
+001d9e    SHL
+001d9f    ADD
+001da0    LDC       0x5f
+001da2    AND
+001da3    ADD
+001da4    LDC       0xff
+001dad    AND
+001dae    LDC       0x3e
+001db0    CMP.EQ
+001db1    DUP
+001db2    BR.FALSE    002c4b
+001dbb    POP
+001dbc    LDLOC     3
+001dbe    LDC       0x0e
+001dc0    GET
+001dc1    LDLOC     3
+001dc3    LDC       0x22
+001dc5    GET
+001dc6    XOR
+001dc7    LDLOC     3
+001dc9    LDC       0x0e
+001dcb    GET
+001dcc    LDLOC     3
+001dce    LDC       0x22
+001dd0    GET
+001dd1    AND
+001dd2    LDC       1
+001dd3    SHL
+001dd4    ADD
+001dd5    LDC       4
+001dd6    OR
+001dd7    LDLOC     3
+001dd9    LDC       0x0e
+001ddb    GET
+001ddc    LDLOC     3
+001dde    LDC       0x22
+001de0    GET
+001de1    XOR
+001de2    LDLOC     3
+001de4    LDC       0x0e
+001de6    GET
+001de7    LDLOC     3
+001de9    LDC       0x22
+001deb    GET
+001dec    AND
+001ded    LDC       1
+001dee    SHL
+001def    ADD
+001df0    LDC       4
+001df1    AND
+001df2    ADD
+001df3    LDC       0xff
+001dfc    AND
+001dfd    LDC       0xd4
+001e06    CMP.EQ
+001e07    DUP
+001e08    BR.FALSE    002c4b
+001e11    POP
+001e12    LDLOC     3
+001e14    LDC       0x0f
+001e16    GET
+001e17    LDLOC     3
+001e19    LDC       5
+001e1a    GET
+001e1b    XOR
+001e1c    LDLOC     3
+001e1e    LDC       0x0f
+001e20    GET
+001e21    LDLOC     3
+001e23    LDC       5
+001e24    GET
+001e25    AND
+001e26    LDC       1
+001e27    SHL
+001e28    ADD
+001e29    LDC       0x4e
+001e2b    OR
+001e2c    LDLOC     3
+001e2e    LDC       0x0f
+001e30    GET
+001e31    LDLOC     3
+001e33    LDC       5
+001e34    GET
+001e35    XOR
+001e36    LDLOC     3
+001e38    LDC       0x0f
+001e3a    GET
+001e3b    LDLOC     3
+001e3d    LDC       5
+001e3e    GET
+001e3f    AND
+001e40    LDC       1
+001e41    SHL
+001e42    ADD
+001e43    LDC       0x4e
+001e45    AND
+001e46    ADD
+001e47    LDC       0xff
+001e50    AND
+001e51    LDC       0x27
+001e53    CMP.EQ
+001e54    DUP
+001e55    BR.FALSE    002c4b
+001e5e    POP
+001e5f    LDLOC     3
+001e61    LDC       0x10
+001e63    GET
+001e64    LDC       0x5e
+001e66    XOR
+001e67    LDC       2
+001e68    LDLOC     3
+001e6a    LDC       0x10
+001e6c    GET
+001e6d    LDC       0x5e
+001e6f    AND
+001e70    MUL
+001e71    ADD
+001e72    LDC       0xff
+001e7b    AND
+001e7c    LDC       0xbd
+001e85    CMP.EQ
+001e86    DUP
+001e87    BR.FALSE    002c4b
+001e90    POP
+001e91    LDLOC     3
+001e93    LDC       0x11
+001e95    GET
+001e96    LDLOC     3
+001e98    LDC       0x3b
+001e9a    GET
+001e9b    XOR
+001e9c    LDLOC     3
+001e9e    LDC       0x11
+001ea0    GET
+001ea1    LDLOC     3
+001ea3    LDC       0x3b
+001ea5    GET
+001ea6    AND
+001ea7    LDC       1
+001ea8    SHL
+001ea9    ADD
+001eaa    LDC       0x3e
+001eac    OR
+001ead    LDLOC     3
+001eaf    LDC       0x11
+001eb1    GET
+001eb2    LDLOC     3
+001eb4    LDC       0x3b
+001eb6    GET
+001eb7    XOR
+001eb8    LDLOC     3
+001eba    LDC       0x11
+001ebc    GET
+001ebd    LDLOC     3
+001ebf    LDC       0x3b
+001ec1    GET
+001ec2    AND
+001ec3    LDC       1
+001ec4    SHL
+001ec5    ADD
+001ec6    LDC       0x3e
+001ec8    AND
+001ec9    ADD
+001eca    LDC       0xff
+001ed3    AND
+001ed4    LDC       0x10
+001ed6    CMP.EQ
+001ed7    DUP
+001ed8    BR.FALSE    002c4b
+001ee1    POP
+001ee2    LDLOC     3
+001ee4    LDC       0x12
+001ee6    GET
+001ee7    LDLOC     3
+001ee9    LDC       0x3b
+001eeb    GET
+001eec    XOR
+001eed    LDLOC     3
+001eef    LDC       0x12
+001ef1    GET
+001ef2    LDLOC     3
+001ef4    LDC       0x3b
+001ef6    GET
+001ef7    AND
+001ef8    LDC       1
+001ef9    SHL
+001efa    ADD
+001efb    LDC       0x2c
+001efd    OR
+001efe    LDLOC     3
+001f00    LDC       0x12
+001f02    GET
+001f03    LDLOC     3
+001f05    LDC       0x3b
+001f07    GET
+001f08    XOR
+001f09    LDLOC     3
+001f0b    LDC       0x12
+001f0d    GET
+001f0e    LDLOC     3
+001f10    LDC       0x3b
+001f12    GET
+001f13    AND
+001f14    LDC       1
+001f15    SHL
+001f16    ADD
+001f17    LDC       0x2c
+001f19    AND
+001f1a    ADD
+001f1b    LDC       0xff
+001f24    AND
+001f25    LDC       0xf4
+001f2e    CMP.EQ
+001f2f    DUP
+001f30    BR.FALSE    002c4b
+001f39    POP
+001f3a    LDLOC     3
+001f3c    LDC       0x13
+001f3e    GET
+001f3f    LDLOC     3
+001f41    LDC       3
+001f42    GET
+001f43    XOR
+001f44    LDLOC     3
+001f46    LDC       0x13
+001f48    GET
+001f49    LDLOC     3
+001f4b    LDC       3
+001f4c    GET
+001f4d    AND
+001f4e    LDC       1
+001f4f    SHL
+001f50    ADD
+001f51    LDC       0xef
+001f5a    OR
+001f5b    LDLOC     3
+001f5d    LDC       0x13
+001f5f    GET
+001f60    LDLOC     3
+001f62    LDC       3
+001f63    GET
+001f64    XOR
+001f65    LDLOC     3
+001f67    LDC       0x13
+001f69    GET
+001f6a    LDLOC     3
+001f6c    LDC       3
+001f6d    GET
+001f6e    AND
+001f6f    LDC       1
+001f70    SHL
+001f71    ADD
+001f72    LDC       0xef
+001f7b    AND
+001f7c    ADD
+001f7d    LDC       0xff
+001f86    AND
+001f87    LDC       0xc1
+001f90    CMP.EQ
+001f91    DUP
+001f92    BR.FALSE    002c4b
+001f9b    POP
+001f9c    LDLOC     3
+001f9e    LDC       0x14
+001fa0    GET
+001fa1    LDC       0x52
+001fa3    XOR
+001fa4    LDC       2
+001fa5    LDLOC     3
+001fa7    LDC       0x14
+001fa9    GET
+001faa    LDC       0x52
+001fac    AND
+001fad    MUL
+001fae    ADD
+001faf    LDC       0xff
+001fb8    AND
+001fb9    LDC       0xc2
+001fc2    CMP.EQ
+001fc3    DUP
+001fc4    BR.FALSE    002c4b
+001fcd    POP
+001fce    LDLOC     3
+001fd0    LDC       0x15
+001fd2    GET
+001fd3    LDC       0x38
+001fd5    XOR
+001fd6    LDC       2
+001fd7    LDLOC     3
+001fd9    LDC       0x15
+001fdb    GET
+001fdc    LDC       0x38
+001fde    AND
+001fdf    MUL
+001fe0    ADD
+001fe1    LDC       0xff
+001fea    AND
+001feb    LDC       0xa4
+001ff4    CMP.EQ
+001ff5    DUP
+001ff6    BR.FALSE    002c4b
+001fff    POP
+002000    LDLOC     3
+002002    LDC       0x16
+002004    GET
+002005    LDC       0x45
+002007    XOR
+002008    LDC       2
+002009    LDLOC     3
+00200b    LDC       0x16
+00200d    GET
+00200e    LDC       0x45
+002010    AND
+002011    MUL
+002012    ADD
+002013    LDC       0xff
+00201c    AND
+00201d    LDC       0xae
+002026    CMP.EQ
+002027    DUP
+002028    BR.FALSE    002c4b
+002031    POP
+002032    LDLOC     3
+002034    LDC       0x17
+002036    GET
+002037    LDLOC     3
+002039    LDC       0x21
+00203b    GET
+00203c    XOR
+00203d    LDLOC     3
+00203f    LDC       0x17
+002041    GET
+002042    LDLOC     3
+002044    LDC       0x21
+002046    GET
+002047    AND
+002048    LDC       1
+002049    SHL
+00204a    ADD
+00204b    LDC       0xec
+002054    OR
+002055    LDLOC     3
+002057    LDC       0x17
+002059    GET
+00205a    LDLOC     3
+00205c    LDC       0x21
+00205e    GET
+00205f    XOR
+002060    LDLOC     3
+002062    LDC       0x17
+002064    GET
+002065    LDLOC     3
+002067    LDC       0x21
+002069    GET
+00206a    AND
+00206b    LDC       1
+00206c    SHL
+00206d    ADD
+00206e    LDC       0xec
+002077    AND
+002078    ADD
+002079    LDC       0xff
+002082    AND
+002083    LDC       0xb4
+00208c    CMP.EQ
+00208d    DUP
+00208e    BR.FALSE    002c4b
+002097    POP
+002098    LDLOC     3
+00209a    LDC       0x18
+00209c    GET
+00209d    LDC       0xf3
+0020a6    XOR
+0020a7    LDC       2
+0020a8    LDLOC     3
+0020aa    LDC       0x18
+0020ac    GET
+0020ad    LDC       0xf3
+0020b6    AND
+0020b7    MUL
+0020b8    ADD
+0020b9    LDC       0xff
+0020c2    AND
+0020c3    LDC       0x5c
+0020c5    CMP.EQ
+0020c6    DUP
+0020c7    BR.FALSE    002c4b
+0020d0    POP
+0020d1    LDLOC     3
+0020d3    LDC       0x19
+0020d5    GET
+0020d6    LDLOC     3
+0020d8    LDC       0x37
+0020da    GET
+0020db    XOR
+0020dc    LDLOC     3
+0020de    LDC       0x19
+0020e0    GET
+0020e1    LDLOC     3
+0020e3    LDC       0x37
+0020e5    GET
+0020e6    AND
+0020e7    LDC       1
+0020e8    SHL
+0020e9    ADD
+0020ea    LDC       0x71
+0020ec    OR
+0020ed    LDLOC     3
+0020ef    LDC       0x19
+0020f1    GET
+0020f2    LDLOC     3
+0020f4    LDC       0x37
+0020f6    GET
+0020f7    XOR
+0020f8    LDLOC     3
+0020fa    LDC       0x19
+0020fc    GET
+0020fd    LDLOC     3
+0020ff    LDC       0x37
+002101    GET
+002102    AND
+002103    LDC       1
+002104    SHL
+002105    ADD
+002106    LDC       0x71
+002108    AND
+002109    ADD
+00210a    LDC       0xff
+002113    AND
+002114    LDC       0x3b
+002116    CMP.EQ
+002117    DUP
+002118    BR.FALSE    002c4b
+002121    POP
+002122    LDLOC     3
+002124    LDC       0x1a
+002126    GET
+002127    LDLOC     3
+002129    LDC       0x1f
+00212b    GET
+00212c    XOR
+00212d    LDLOC     3
+00212f    LDC       0x1a
+002131    GET
+002132    LDLOC     3
+002134    LDC       0x1f
+002136    GET
+002137    AND
+002138    LDC       1
+002139    SHL
+00213a    ADD
+00213b    LDC       0xad
+002144    OR
+002145    LDLOC     3
+002147    LDC       0x1a
+002149    GET
+00214a    LDLOC     3
+00214c    LDC       0x1f
+00214e    GET
+00214f    XOR
+002150    LDLOC     3
+002152    LDC       0x1a
+002154    GET
+002155    LDLOC     3
+002157    LDC       0x1f
+002159    GET
+00215a    AND
+00215b    LDC       1
+00215c    SHL
+00215d    ADD
+00215e    LDC       0xad
+002167    AND
+002168    ADD
+002169    LDC       0xff
+002172    AND
+002173    LDC       0x70
+002175    CMP.EQ
+002176    DUP
+002177    BR.FALSE    002c4b
+002180    POP
+002181    LDLOC     3
+002183    LDC       0x1b
+002185    GET
+002186    LDLOC     3
+002188    LDC       0x35
+00218a    GET
+00218b    XOR
+00218c    LDLOC     3
+00218e    LDC       0x1b
+002190    GET
+002191    LDLOC     3
+002193    LDC       0x35
+002195    GET
+002196    AND
+002197    LDC       1
+002198    SHL
+002199    ADD
+00219a    LDC       0x14
+00219c    OR
+00219d    LDLOC     3
+00219f    LDC       0x1b
+0021a1    GET
+0021a2    LDLOC     3
+0021a4    LDC       0x35
+0021a6    GET
+0021a7    XOR
+0021a8    LDLOC     3
+0021aa    LDC       0x1b
+0021ac    GET
+0021ad    LDLOC     3
+0021af    LDC       0x35
+0021b1    GET
+0021b2    AND
+0021b3    LDC       1
+0021b4    SHL
+0021b5    ADD
+0021b6    LDC       0x14
+0021b8    AND
+0021b9    ADD
+0021ba    LDC       0xff
+0021c3    AND
+0021c4    LDC       0xe7
+0021cd    CMP.EQ
+0021ce    DUP
+0021cf    BR.FALSE    002c4b
+0021d8    POP
+0021d9    LDLOC     3
+0021db    LDC       0x1c
+0021dd    GET
+0021de    LDC       0x12
+0021e0    XOR
+0021e1    LDC       2
+0021e2    LDLOC     3
+0021e4    LDC       0x1c
+0021e6    GET
+0021e7    LDC       0x12
+0021e9    AND
+0021ea    MUL
+0021eb    ADD
+0021ec    LDC       0xff
+0021f5    AND
+0021f6    LDC       0x86
+0021ff    CMP.EQ
+002200    DUP
+002201    BR.FALSE    002c4b
+00220a    POP
+00220b    LDLOC     3
+00220d    LDC       0x1d
+00220f    GET
+002210    LDLOC     3
+002212    LDC       0x18
+002214    GET
+002215    XOR
+002216    LDLOC     3
+002218    LDC       0x1d
+00221a    GET
+00221b    LDLOC     3
+00221d    LDC       0x18
+00221f    GET
+002220    AND
+002221    LDC       1
+002222    SHL
+002223    ADD
+002224    LDC       0x40
+002226    OR
+002227    LDLOC     3
+002229    LDC       0x1d
+00222b    GET
+00222c    LDLOC     3
+00222e    LDC       0x18
+002230    GET
+002231    XOR
+002232    LDLOC     3
+002234    LDC       0x1d
+002236    GET
+002237    LDLOC     3
+002239    LDC       0x18
+00223b    GET
+00223c    AND
+00223d    LDC       1
+00223e    SHL
+00223f    ADD
+002240    LDC       0x40
+002242    AND
+002243    ADD
+002244    LDC       0xff
+00224d    AND
+00224e    LDC       0x11
+002250    CMP.EQ
+002251    DUP
+002252    BR.FALSE    002c4b
+00225b    POP
+00225c    LDLOC     3
+00225e    LDC       0x1e
+002260    GET
+002261    LDC       0xc1
+00226a    XOR
+00226b    LDC       2
+00226c    LDLOC     3
+00226e    LDC       0x1e
+002270    GET
+002271    LDC       0xc1
+00227a    AND
+00227b    MUL
+00227c    ADD
+00227d    LDC       0xff
+002286    AND
+002287    LDC       0x26
+002289    CMP.EQ
+00228a    DUP
+00228b    BR.FALSE    002c4b
+002294    POP
+002295    LDLOC     3
+002297    LDC       0x1f
+002299    GET
+00229a    LDC       3
+00229b    XOR
+00229c    LDC       2
+00229d    LDLOC     3
+00229f    LDC       0x1f
+0022a1    GET
+0022a2    LDC       3
+0022a3    AND
+0022a4    MUL
+0022a5    ADD
+0022a6    LDC       0xff
+0022af    AND
+0022b0    LDC       0x62
+0022b2    CMP.EQ
+0022b3    DUP
+0022b4    BR.FALSE    002c4b
+0022bd    POP
+0022be    LDLOC     3
+0022c0    LDC       0x20
+0022c2    GET
+0022c3    LDC       0xea
+0022cc    XOR
+0022cd    LDC       2
+0022ce    LDLOC     3
+0022d0    LDC       0x20
+0022d2    GET
+0022d3    LDC       0xea
+0022dc    AND
+0022dd    MUL
+0022de    ADD
+0022df    LDC       0xff
+0022e8    AND
+0022e9    LDC       0x57
+0022eb    CMP.EQ
+0022ec    DUP
+0022ed    BR.FALSE    002c4b
+0022f6    POP
+0022f7    LDLOC     3
+0022f9    LDC       0x21
+0022fb    GET
+0022fc    LDC       0xd8
+002305    XOR
+002306    LDC       2
+002307    LDLOC     3
+002309    LDC       0x21
+00230b    GET
+00230c    LDC       0xd8
+002315    AND
+002316    MUL
+002317    ADD
+002318    LDC       0xff
+002321    AND
+002322    LDC       0x3a
+002324    CMP.EQ
+002325    DUP
+002326    BR.FALSE    002c4b
+00232f    POP
+002330    LDLOC     3
+002332    LDC       0x22
+002334    GET
+002335    LDLOC     3
+002337    LDC       0x1c
+002339    GET
+00233a    XOR
+00233b    LDLOC     3
+00233d    LDC       0x22
+00233f    GET
+002340    LDLOC     3
+002342    LDC       0x1c
+002344    GET
+002345    AND
+002346    LDC       1
+002347    SHL
+002348    ADD
+002349    LDC       0xde
+002352    OR
+002353    LDLOC     3
+002355    LDC       0x22
+002357    GET
+002358    LDLOC     3
+00235a    LDC       0x1c
+00235c    GET
+00235d    XOR
+00235e    LDLOC     3
+002360    LDC       0x22
+002362    GET
+002363    LDLOC     3
+002365    LDC       0x1c
+002367    GET
+002368    AND
+002369    LDC       1
+00236a    SHL
+00236b    ADD
+00236c    LDC       0xde
+002375    AND
+002376    ADD
+002377    LDC       0xff
+002380    AND
+002381    LDC       0xb3
+00238a    CMP.EQ
+00238b    DUP
+00238c    BR.FALSE    002c4b
+002395    POP
+002396    LDLOC     3
+002398    LDC       0x23
+00239a    GET
+00239b    LDLOC     3
+00239d    LDC       0x0e
+00239f    GET
+0023a0    XOR
+0023a1    LDLOC     3
+0023a3    LDC       0x23
+0023a5    GET
+0023a6    LDLOC     3
+0023a8    LDC       0x0e
+0023aa    GET
+0023ab    AND
+0023ac    LDC       1
+0023ad    SHL
+0023ae    ADD
+0023af    LDC       0xdd
+0023b8    OR
+0023b9    LDLOC     3
+0023bb    LDC       0x23
+0023bd    GET
+0023be    LDLOC     3
+0023c0    LDC       0x0e
+0023c2    GET
+0023c3    XOR
+0023c4    LDLOC     3
+0023c6    LDC       0x23
+0023c8    GET
+0023c9    LDLOC     3
+0023cb    LDC       0x0e
+0023cd    GET
+0023ce    AND
+0023cf    LDC       1
+0023d0    SHL
+0023d1    ADD
+0023d2    LDC       0xdd
+0023db    AND
+0023dc    ADD
+0023dd    LDC       0xff
+0023e6    AND
+0023e7    LDC       0xab
+0023f0    CMP.EQ
+0023f1    DUP
+0023f2    BR.FALSE    002c4b
+0023fb    POP
+0023fc    LDLOC     3
+0023fe    LDC       0x24
+002400    GET
+002401    LDLOC     3
+002403    LDC       0x0a
+002405    GET
+002406    XOR
+002407    LDLOC     3
+002409    LDC       0x24
+00240b    GET
+00240c    LDLOC     3
+00240e    LDC       0x0a
+002410    GET
+002411    AND
+002412    LDC       1
+002413    SHL
+002414    ADD
+002415    LDC       0x9f
+00241e    OR
+00241f    LDLOC     3
+002421    LDC       0x24
+002423    GET
+002424    LDLOC     3
+002426    LDC       0x0a
+002428    GET
+002429    XOR
+00242a    LDLOC     3
+00242c    LDC       0x24
+00242e    GET
+00242f    LDLOC     3
+002431    LDC       0x0a
+002433    GET
+002434    AND
+002435    LDC       1
+002436    SHL
+002437    ADD
+002438    LDC       0x9f
+002441    AND
+002442    ADD
+002443    LDC       0xff
+00244c    AND
+00244d    LDC       0x65
+00244f    CMP.EQ
+002450    DUP
+002451    BR.FALSE    002c4b
+00245a    POP
+00245b    LDLOC     3
+00245d    LDC       0x25
+00245f    GET
+002460    LDLOC     3
+002462    LDC       0x3a
+002464    GET
+002465    XOR
+002466    LDLOC     3
+002468    LDC       0x25
+00246a    GET
+00246b    LDLOC     3
+00246d    LDC       0x3a
+00246f    GET
+002470    AND
+002471    LDC       1
+002472    SHL
+002473    ADD
+002474    LDC       0x6f
+002476    OR
+002477    LDLOC     3
+002479    LDC       0x25
+00247b    GET
+00247c    LDLOC     3
+00247e    LDC       0x3a
+002480    GET
+002481    XOR
+002482    LDLOC     3
+002484    LDC       0x25
+002486    GET
+002487    LDLOC     3
+002489    LDC       0x3a
+00248b    GET
+00248c    AND
+00248d    LDC       1
+00248e    SHL
+00248f    ADD
+002490    LDC       0x6f
+002492    AND
+002493    ADD
+002494    LDC       0xff
+00249d    AND
+00249e    LDC       0x34
+0024a0    CMP.EQ
+0024a1    DUP
+0024a2    BR.FALSE    002c4b
+0024ab    POP
+0024ac    LDLOC     3
+0024ae    LDC       0x26
+0024b0    GET
+0024b1    LDC       0xd6
+0024ba    XOR
+0024bb    LDC       2
+0024bc    LDLOC     3
+0024be    LDC       0x26
+0024c0    GET
+0024c1    LDC       0xd6
+0024ca    AND
+0024cb    MUL
+0024cc    ADD
+0024cd    LDC       0xff
+0024d6    AND
+0024d7    LDC       0x46
+0024d9    CMP.EQ
+0024da    DUP
+0024db    BR.FALSE    002c4b
+0024e4    POP
+0024e5    LDLOC     3
+0024e7    LDC       0x27
+0024e9    GET
+0024ea    LDLOC     3
+0024ec    LDC       0x1a
+0024ee    GET
+0024ef    XOR
+0024f0    LDLOC     3
+0024f2    LDC       0x27
+0024f4    GET
+0024f5    LDLOC     3
+0024f7    LDC       0x1a
+0024f9    GET
+0024fa    AND
+0024fb    LDC       1
+0024fc    SHL
+0024fd    ADD
+0024fe    LDC       0xc8
+002507    OR
+002508    LDLOC     3
+00250a    LDC       0x27
+00250c    GET
+00250d    LDLOC     3
+00250f    LDC       0x1a
+002511    GET
+002512    XOR
+002513    LDLOC     3
+002515    LDC       0x27
+002517    GET
+002518    LDLOC     3
+00251a    LDC       0x1a
+00251c    GET
+00251d    AND
+00251e    LDC       1
+00251f    SHL
+002520    ADD
+002521    LDC       0xc8
+00252a    AND
+00252b    ADD
+00252c    LDC       0xff
+002535    AND
+002536    LDC       0x9e
+00253f    CMP.EQ
+002540    DUP
+002541    BR.FALSE    002c4b
+00254a    POP
+00254b    LDLOC     3
+00254d    LDC       0x28
+00254f    GET
+002550    LDC       0xbd
+002559    XOR
+00255a    LDC       2
+00255b    LDLOC     3
+00255d    LDC       0x28
+00255f    GET
+002560    LDC       0xbd
+002569    AND
+00256a    MUL
+00256b    ADD
+00256c    LDC       0xff
+002575    AND
+002576    LDC       0x22
+002578    CMP.EQ
+002579    DUP
+00257a    BR.FALSE    002c4b
+002583    POP
+002584    LDLOC     3
+002586    LDC       0x29
+002588    GET
+002589    LDLOC     3
+00258b    LDC       0x07
+00258d    GET
+00258e    XOR
+00258f    LDLOC     3
+002591    LDC       0x29
+002593    GET
+002594    LDLOC     3
+002596    LDC       0x07
+002598    GET
+002599    AND
+00259a    LDC       1
+00259b    SHL
+00259c    ADD
+00259d    LDC       0x28
+00259f    OR
+0025a0    LDLOC     3
+0025a2    LDC       0x29
+0025a4    GET
+0025a5    LDLOC     3
+0025a7    LDC       0x07
+0025a9    GET
+0025aa    XOR
+0025ab    LDLOC     3
+0025ad    LDC       0x29
+0025af    GET
+0025b0    LDLOC     3
+0025b2    LDC       0x07
+0025b4    GET
+0025b5    AND
+0025b6    LDC       1
+0025b7    SHL
+0025b8    ADD
+0025b9    LDC       0x28
+0025bb    AND
+0025bc    ADD
+0025bd    LDC       0xff
+0025c6    AND
+0025c7    LDC       0x09
+0025c9    CMP.EQ
+0025ca    DUP
+0025cb    BR.FALSE    002c4b
+0025d4    POP
+0025d5    LDLOC     3
+0025d7    LDC       0x2a
+0025d9    GET
+0025da    LDC       0x55
+0025dc    XOR
+0025dd    LDC       2
+0025de    LDLOC     3
+0025e0    LDC       0x2a
+0025e2    GET
+0025e3    LDC       0x55
+0025e5    AND
+0025e6    MUL
+0025e7    ADD
+0025e8    LDC       0xff
+0025f1    AND
+0025f2    LDC       0xc8
+0025fb    CMP.EQ
+0025fc    DUP
+0025fd    BR.FALSE    002c4b
+002606    POP
+002607    LDLOC     3
+002609    LDC       0x2b
+00260b    GET
+00260c    LDLOC     3
+00260e    LDC       0x23
+002610    GET
+002611    XOR
+002612    LDLOC     3
+002614    LDC       0x2b
+002616    GET
+002617    LDLOC     3
+002619    LDC       0x23
+00261b    GET
+00261c    AND
+00261d    LDC       1
+00261e    SHL
+00261f    ADD
+002620    LDC       0x90
+002629    OR
+00262a    LDLOC     3
+00262c    LDC       0x2b
+00262e    GET
+00262f    LDLOC     3
+002631    LDC       0x23
+002633    GET
+002634    XOR
+002635    LDLOC     3
+002637    LDC       0x2b
+002639    GET
+00263a    LDLOC     3
+00263c    LDC       0x23
+00263e    GET
+00263f    AND
+002640    LDC       1
+002641    SHL
+002642    ADD
+002643    LDC       0x90
+00264c    AND
+00264d    ADD
+00264e    LDC       0xff
+002657    AND
+002658    LDC       0x58
+00265a    CMP.EQ
+00265b    DUP
+00265c    BR.FALSE    002c4b
+002665    POP
+002666    LDLOC     3
+002668    LDC       0x2c
+00266a    GET
+00266b    LDLOC     3
+00266d    LDC       0x36
+00266f    GET
+002670    XOR
+002671    LDLOC     3
+002673    LDC       0x2c
+002675    GET
+002676    LDLOC     3
+002678    LDC       0x36
+00267a    GET
+00267b    AND
+00267c    LDC       1
+00267d    SHL
+00267e    ADD
+00267f    LDC       0x0d
+002681    OR
+002682    LDLOC     3
+002684    LDC       0x2c
+002686    GET
+002687    LDLOC     3
+002689    LDC       0x36
+00268b    GET
+00268c    XOR
+00268d    LDLOC     3
+00268f    LDC       0x2c
+002691    GET
+002692    LDLOC     3
+002694    LDC       0x36
+002696    GET
+002697    AND
+002698    LDC       1
+002699    SHL
+00269a    ADD
+00269b    LDC       0x0d
+00269d    AND
+00269e    ADD
+00269f    LDC       0xff
+0026a8    AND
+0026a9    LDC       0xa5
+0026b2    CMP.EQ
+0026b3    DUP
+0026b4    BR.FALSE    002c4b
+0026bd    POP
+0026be    LDLOC     3
+0026c0    LDC       0x2d
+0026c2    GET
+0026c3    LDLOC     3
+0026c5    LDC       0x22
+0026c7    GET
+0026c8    XOR
+0026c9    LDLOC     3
+0026cb    LDC       0x2d
+0026cd    GET
+0026ce    LDLOC     3
+0026d0    LDC       0x22
+0026d2    GET
+0026d3    AND
+0026d4    LDC       1
+0026d5    SHL
+0026d6    ADD
+0026d7    LDC       0x2a
+0026d9    OR
+0026da    LDLOC     3
+0026dc    LDC       0x2d
+0026de    GET
+0026df    LDLOC     3
+0026e1    LDC       0x22
+0026e3    GET
+0026e4    XOR
+0026e5    LDLOC     3
+0026e7    LDC       0x2d
+0026e9    GET
+0026ea    LDLOC     3
+0026ec    LDC       0x22
+0026ee    GET
+0026ef    AND
+0026f0    LDC       1
+0026f1    SHL
+0026f2    ADD
+0026f3    LDC       0x2a
+0026f5    AND
+0026f6    ADD
+0026f7    LDC       0xff
+002700    AND
+002701    LDC       0xf9
+00270a    CMP.EQ
+00270b    DUP
+00270c    BR.FALSE    002c4b
+002715    POP
+002716    LDLOC     3
+002718    LDC       0x2e
+00271a    GET
+00271b    LDC       0x64
+00271d    XOR
+00271e    LDC       2
+00271f    LDLOC     3
+002721    LDC       0x2e
+002723    GET
+002724    LDC       0x64
+002726    AND
+002727    MUL
+002728    ADD
+002729    LDC       0xff
+002732    AND
+002733    LDC       0xd7
+00273c    CMP.EQ
+00273d    DUP
+00273e    BR.FALSE    002c4b
+002747    POP
+002748    LDLOC     3
+00274a    LDC       0x2f
+00274c    GET
+00274d    LDC       0x7f
+00274f    XOR
+002750    LDC       2
+002751    LDLOC     3
+002753    LDC       0x2f
+002755    GET
+002756    LDC       0x7f
+002758    AND
+002759    MUL
+00275a    ADD
+00275b    LDC       0xff
+002764    AND
+002765    LDC       0xde
+00276e    CMP.EQ
+00276f    DUP
+002770    BR.FALSE    002c4b
+002779    POP
+00277a    LDLOC     3
+00277c    LDC       0x30
+00277e    GET
+00277f    LDC       0xfd
+002788    XOR
+002789    LDC       2
+00278a    LDLOC     3
+00278c    LDC       0x30
+00278e    GET
+00278f    LDC       0xfd
+002798    AND
+002799    MUL
+00279a    ADD
+00279b    LDC       0xff
+0027a4    AND
+0027a5    LDC       0x63
+0027a7    CMP.EQ
+0027a8    DUP
+0027a9    BR.FALSE    002c4b
+0027b2    POP
+0027b3    LDLOC     3
+0027b5    LDC       0x31
+0027b7    GET
+0027b8    LDLOC     3
+0027ba    LDC       0x31
+0027bc    GET
+0027bd    XOR
+0027be    LDLOC     3
+0027c0    LDC       0x31
+0027c2    GET
+0027c3    LDLOC     3
+0027c5    LDC       0x31
+0027c7    GET
+0027c8    AND
+0027c9    LDC       1
+0027ca    SHL
+0027cb    ADD
+0027cc    LDC       0xd4
+0027d5    OR
+0027d6    LDLOC     3
+0027d8    LDC       0x31
+0027da    GET
+0027db    LDLOC     3
+0027dd    LDC       0x31
+0027df    GET
+0027e0    XOR
+0027e1    LDLOC     3
+0027e3    LDC       0x31
+0027e5    GET
+0027e6    LDLOC     3
+0027e8    LDC       0x31
+0027ea    GET
+0027eb    AND
+0027ec    LDC       1
+0027ed    SHL
+0027ee    ADD
+0027ef    LDC       0xd4
+0027f8    AND
+0027f9    ADD
+0027fa    LDC       0xff
+002803    AND
+002804    LDC       0xb8
+00280d    CMP.EQ
+00280e    DUP
+00280f    BR.FALSE    002c4b
+002818    POP
+002819    LDLOC     3
+00281b    LDC       0x32
+00281d    GET
+00281e    LDC       0x6e
+002820    XOR
+002821    LDC       2
+002822    LDLOC     3
+002824    LDC       0x32
+002826    GET
+002827    LDC       0x6e
+002829    AND
+00282a    MUL
+00282b    ADD
+00282c    LDC       0xff
+002835    AND
+002836    LDC       0xdd
+00283f    CMP.EQ
+002840    DUP
+002841    BR.FALSE    002c4b
+00284a    POP
+00284b    LDLOC     3
+00284d    LDC       0x33
+00284f    GET
+002850    LDC       0x29
+002852    XOR
+002853    LDC       2
+002854    LDLOC     3
+002856    LDC       0x33
+002858    GET
+002859    LDC       0x29
+00285b    AND
+00285c    MUL
+00285d    ADD
+00285e    LDC       0xff
+002867    AND
+002868    LDC       0x96
+002871    CMP.EQ
+002872    DUP
+002873    BR.FALSE    002c4b
+00287c    POP
+00287d    LDLOC     3
+00287f    LDC       0x34
+002881    GET
+002882    LDLOC     3
+002884    LDC       0x3a
+002886    GET
+002887    XOR
+002888    LDLOC     3
+00288a    LDC       0x34
+00288c    GET
+00288d    LDLOC     3
+00288f    LDC       0x3a
+002891    GET
+002892    AND
+002893    LDC       1
+002894    SHL
+002895    ADD
+002896    LDC       0x65
+002898    OR
+002899    LDLOC     3
+00289b    LDC       0x34
+00289d    GET
+00289e    LDLOC     3
+0028a0    LDC       0x3a
+0028a2    GET
+0028a3    XOR
+0028a4    LDLOC     3
+0028a6    LDC       0x34
+0028a8    GET
+0028a9    LDLOC     3
+0028ab    LDC       0x3a
+0028ad    GET
+0028ae    AND
+0028af    LDC       1
+0028b0    SHL
+0028b1    ADD
+0028b2    LDC       0x65
+0028b4    AND
+0028b5    ADD
+0028b6    LDC       0xff
+0028bf    AND
+0028c0    LDC       0x11
+0028c2    CMP.EQ
+0028c3    DUP
+0028c4    BR.FALSE    002c4b
+0028cd    POP
+0028ce    LDLOC     3
+0028d0    LDC       0x35
+0028d2    GET
+0028d3    LDC       0x0e
+0028d5    XOR
+0028d6    LDC       2
+0028d7    LDLOC     3
+0028d9    LDC       0x35
+0028db    GET
+0028dc    LDC       0x0e
+0028de    AND
+0028df    MUL
+0028e0    ADD
+0028e1    LDC       0xff
+0028ea    AND
+0028eb    LDC       0x82
+0028f4    CMP.EQ
+0028f5    DUP
+0028f6    BR.FALSE    002c4b
+0028ff    POP
+002900    LDLOC     3
+002902    LDC       0x36
+002904    GET
+002905    LDLOC     3
+002907    LDC       0x2d
+002909    GET
+00290a    XOR
+00290b    LDLOC     3
+00290d    LDC       0x36
+00290f    GET
+002910    LDLOC     3
+002912    LDC       0x2d
+002914    GET
+002915    AND
+002916    LDC       1
+002917    SHL
+002918    ADD
+002919    LDC       0x91
+002922    OR
+002923    LDLOC     3
+002925    LDC       0x36
+002927    GET
+002928    LDLOC     3
+00292a    LDC       0x2d
+00292c    GET
+00292d    XOR
+00292e    LDLOC     3
+002930    LDC       0x36
+002932    GET
+002933    LDLOC     3
+002935    LDC       0x2d
+002937    GET
+002938    AND
+002939    LDC       1
+00293a    SHL
+00293b    ADD
+00293c    LDC       0x91
+002945    AND
+002946    ADD
+002947    LDC       0xff
+002950    AND
+002951    LDC       0x67
+002953    CMP.EQ
+002954    DUP
+002955    BR.FALSE    002c4b
+00295e    POP
+00295f    LDLOC     3
+002961    LDC       0x37
+002963    GET
+002964    LDC       0x62
+002966    XOR
+002967    LDC       2
+002968    LDLOC     3
+00296a    LDC       0x37
+00296c    GET
+00296d    LDC       0x62
+00296f    AND
+002970    MUL
+002971    ADD
+002972    LDC       0xff
+00297b    AND
+00297c    LDC       0xc7
+002985    CMP.EQ
+002986    DUP
+002987    BR.FALSE    002c4b
+002990    POP
+002991    LDLOC     3
+002993    LDC       0x38
+002995    GET
+002996    LDLOC     3
+002998    LDC       0x0b
+00299a    GET
+00299b    XOR
+00299c    LDLOC     3
+00299e    LDC       0x38
+0029a0    GET
+0029a1    LDLOC     3
+0029a3    LDC       0x0b
+0029a5    GET
+0029a6    AND
+0029a7    LDC       1
+0029a8    SHL
+0029a9    ADD
+0029aa    LDC       0x4d
+0029ac    OR
+0029ad    LDLOC     3
+0029af    LDC       0x38
+0029b1    GET
+0029b2    LDLOC     3
+0029b4    LDC       0x0b
+0029b6    GET
+0029b7    XOR
+0029b8    LDLOC     3
+0029ba    LDC       0x38
+0029bc    GET
+0029bd    LDLOC     3
+0029bf    LDC       0x0b
+0029c1    GET
+0029c2    AND
+0029c3    LDC       1
+0029c4    SHL
+0029c5    ADD
+0029c6    LDC       0x4d
+0029c8    AND
+0029c9    ADD
+0029ca    LDC       0xff
+0029d3    AND
+0029d4    LDC       0x25
+0029d6    CMP.EQ
+0029d7    DUP
+0029d8    BR.FALSE    002c4b
+0029e1    POP
+0029e2    LDLOC     3
+0029e4    LDC       0x39
+0029e6    GET
+0029e7    LDLOC     3
+0029e9    LDC       0x1e
+0029eb    GET
+0029ec    XOR
+0029ed    LDLOC     3
+0029ef    LDC       0x39
+0029f1    GET
+0029f2    LDLOC     3
+0029f4    LDC       0x1e
+0029f6    GET
+0029f7    AND
+0029f8    LDC       1
+0029f9    SHL
+0029fa    ADD
+0029fb    LDC       0xdd
+002a04    OR
+002a05    LDLOC     3
+002a07    LDC       0x39
+002a09    GET
+002a0a    LDLOC     3
+002a0c    LDC       0x1e
+002a0e    GET
+002a0f    XOR
+002a10    LDLOC     3
+002a12    LDC       0x39
+002a14    GET
+002a15    LDLOC     3
+002a17    LDC       0x1e
+002a19    GET
+002a1a    AND
+002a1b    LDC       1
+002a1c    SHL
+002a1d    ADD
+002a1e    LDC       0xdd
+002a27    AND
+002a28    ADD
+002a29    LDC       0xff
+002a32    AND
+002a33    LDC       0x98
+002a3c    CMP.EQ
+002a3d    DUP
+002a3e    BR.FALSE    002c4b
+002a47    POP
+002a48    LDLOC     3
+002a4a    LDC       0x3a
+002a4c    GET
+002a4d    LDLOC     3
+002a4f    LDC       0x1e
+002a51    GET
+002a52    XOR
+002a53    LDLOC     3
+002a55    LDC       0x3a
+002a57    GET
+002a58    LDLOC     3
+002a5a    LDC       0x1e
+002a5c    GET
+002a5d    AND
+002a5e    LDC       1
+002a5f    SHL
+002a60    ADD
+002a61    LDC       0xfd
+002a6a    OR
+002a6b    LDLOC     3
+002a6d    LDC       0x3a
+002a6f    GET
+002a70    LDLOC     3
+002a72    LDC       0x1e
+002a74    GET
+002a75    XOR
+002a76    LDLOC     3
+002a78    LDC       0x3a
+002a7a    GET
+002a7b    LDLOC     3
+002a7d    LDC       0x1e
+002a7f    GET
+002a80    AND
+002a81    LDC       1
+002a82    SHL
+002a83    ADD
+002a84    LDC       0xfd
+002a8d    AND
+002a8e    ADD
+002a8f    LDC       0xff
+002a98    AND
+002a99    LDC       0xaf
+002aa2    CMP.EQ
+002aa3    DUP
+002aa4    BR.FALSE    002c4b
+002aad    POP
+002aae    LDLOC     3
+002ab0    LDC       0x3b
+002ab2    GET
+002ab3    LDC       0x6b
+002ab5    XOR
+002ab6    LDC       2
+002ab7    LDLOC     3
+002ab9    LDC       0x3b
+002abb    GET
+002abc    LDC       0x6b
+002abe    AND
+002abf    MUL
+002ac0    ADD
+002ac1    LDC       0xff
+002aca    AND
+002acb    LDC       0xca
+002ad4    CMP.EQ
+002ad5    DUP
+002ad6    BR.FALSE    002c4b
+002adf    POP
+002ae0    LDLOC     3
+002ae2    LDC       0x3c
+002ae4    GET
+002ae5    LDC       0xf1
+002aee    XOR
+002aef    LDC       2
+002af0    LDLOC     3
+002af2    LDC       0x3c
+002af4    GET
+002af5    LDC       0xf1
+002afe    AND
+002aff    MUL
+002b00    ADD
+002b01    LDC       0xff
+002b0a    AND
+002b0b    LDC       0x54
+002b0d    CMP.EQ
+002b0e    DUP
+002b0f    BR.FALSE    002c4b
+002b18    POP
+002b19    LDLOC     3
+002b1b    LDC       0x3d
+002b1d    GET
+002b1e    LDC       0x22
+002b20    XOR
+002b21    LDC       2
+002b22    LDLOC     3
+002b24    LDC       0x3d
+002b26    GET
+002b27    LDC       0x22
+002b29    AND
+002b2a    MUL
+002b2b    ADD
+002b2c    LDC       0xff
+002b35    AND
+002b36    LDC       0x52
+002b38    CMP.EQ
+002b39    DUP
+002b3a    BR.FALSE    002c4b
+002b43    POP
+002b44    LDLOC     3
+002b46    LDC       0x3e
+002b48    GET
+002b49    LDLOC     3
+002b4b    LDC       0x11
+002b4d    GET
+002b4e    XOR
+002b4f    LDLOC     3
+002b51    LDC       0x3e
+002b53    GET
+002b54    LDLOC     3
+002b56    LDC       0x11
+002b58    GET
+002b59    AND
+002b5a    LDC       1
+002b5b    SHL
+002b5c    ADD
+002b5d    LDC       0x4b
+002b5f    OR
+002b60    LDLOC     3
+002b62    LDC       0x3e
+002b64    GET
+002b65    LDLOC     3
+002b67    LDC       0x11
+002b69    GET
+002b6a    XOR
+002b6b    LDLOC     3
+002b6d    LDC       0x3e
+002b6f    GET
+002b70    LDLOC     3
+002b72    LDC       0x11
+002b74    GET
+002b75    AND
+002b76    LDC       1
+002b77    SHL
+002b78    ADD
+002b79    LDC       0x4b
+002b7b    AND
+002b7c    ADD
+002b7d    LDC       0xff
+002b86    AND
+002b87    LDC       0x22
+002b89    CMP.EQ
+002b8a    DUP
+002b8b    BR.FALSE    002c4b
+002b94    POP
+002b95    LDLOC     3
+002b97    LDC       0x3f
+002b99    GET
+002b9a    LDLOC     3
+002b9c    LDC       0
+002b9d    GET
+002b9e    XOR
+002b9f    LDLOC     3
+002ba1    LDC       0x3f
+002ba3    GET
+002ba4    LDLOC     3
+002ba6    LDC       0
+002ba7    GET
+002ba8    AND
+002ba9    LDC       1
+002baa    SHL
+002bab    ADD
+002bac    LDC       0xc3
+002bb5    OR
+002bb6    LDLOC     3
+002bb8    LDC       0x3f
+002bba    GET
+002bbb    LDLOC     3
+002bbd    LDC       0
+002bbe    GET
+002bbf    XOR
+002bc0    LDLOC     3
+002bc2    LDC       0x3f
+002bc4    GET
+002bc5    LDLOC     3
+002bc7    LDC       0
+002bc8    GET
+002bc9    AND
+002bca    LDC       1
+002bcb    SHL
+002bcc    ADD
+002bcd    LDC       0xc3
+002bd6    AND
+002bd7    ADD
+002bd8    LDC       0xff
+002be1    AND
+002be2    LDC       0x78
+002be4    CMP.EQ
+002be5    DUP
+002be6    BR.FALSE    002c4b
+002bef    POP
+002bf0    LDLOC     3
+002bf2    LDC       0x40
+002bf4    GET
+002bf5    LDLOC     3
+002bf7    LDC       0x08
+002bf9    GET
+002bfa    XOR
+002bfb    LDLOC     3
+002bfd    LDC       0x40
+002bff    GET
+002c00    LDLOC     3
+002c02    LDC       0x08
+002c04    GET
+002c05    AND
+002c06    LDC       1
+002c07    SHL
+002c08    ADD
+002c09    LDC       0xf5
+002c12    OR
+002c13    LDLOC     3
+002c15    LDC       0x40
+002c17    GET
+002c18    LDLOC     3
+002c1a    LDC       0x08
+002c1c    GET
+002c1d    XOR
+002c1e    LDLOC     3
+002c20    LDC       0x40
+002c22    GET
+002c23    LDLOC     3
+002c25    LDC       0x08
+002c27    GET
+002c28    AND
+002c29    LDC       1
+002c2a    SHL
+002c2b    ADD
+002c2c    LDC       0xf5
+002c35    AND
+002c36    ADD
+002c37    LDC       0xff
+002c40    AND
+002c41    LDC       0xed
+002c4a    CMP.EQ
+002c4b    BR.FALSE    002c71
+002c54    NEWSTR    "Flag is right!"
+002c5d    PRINT
+002c5e    NEWSTR    "Go submit!!"
+002c67    PRINT
+002c68    BR        002c7b
+002c71    NEWSTR    "Flag is wrong"
+002c7a    PRINT
+002c7b    HALT
