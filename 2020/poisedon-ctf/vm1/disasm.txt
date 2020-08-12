@@ -1,0 +1,735 @@
+[*] PC: 0xa18
+[*] File Size: 0x1c12
+[*] No.of Strings: 0x10e
+000a18    GLOAD     "io"
+000a21    NEWSTR    "stdin"
+000a2a    GET
+000a2b    ENDSTK
+000a2c    NEWSTR    "\x00"
+000a35    LDC       0
+000a36    NEWSTR    "\x01"
+000a3f    LDC       1
+000a40    NEWSTR    "\x02"
+000a49    LDC       2
+000a4a    NEWSTR    "\x03"
+000a53    LDC       3
+000a54    NEWSTR    "\x04"
+000a5d    LDC       4
+000a5e    NEWSTR    "\x05"
+000a67    LDC       5
+000a68    NEWSTR    "\x06"
+000a71    LDC       0x06
+000a73    NEWSTR    "\a"
+000a7c    LDC       0x07
+000a7e    NEWSTR    "\b"
+000a87    LDC       0x08
+000a89    NEWSTR    "\t"
+000a92    LDC       0x09
+000a94    NEWSTR    "\n"
+000a9d    LDC       0x0a
+000a9f    NEWSTR    "\v"
+000aa8    LDC       0x0b
+000aaa    NEWSTR    "\f"
+000ab3    LDC       0x0c
+000ab5    NEWSTR    "\r"
+000abe    LDC       0x0d
+000ac0    NEWSTR    "\x0e"
+000ac9    LDC       0x0e
+000acb    NEWSTR    "\x0f"
+000ad4    LDC       0x0f
+000ad6    NEWSTR    "\x10"
+000adf    LDC       0x10
+000ae1    NEWSTR    "\x11"
+000aea    LDC       0x11
+000aec    NEWSTR    "\x12"
+000af5    LDC       0x12
+000af7    NEWSTR    "\x13"
+000b00    LDC       0x13
+000b02    NEWSTR    "\x14"
+000b0b    LDC       0x14
+000b0d    NEWSTR    "\x15"
+000b16    LDC       0x15
+000b18    NEWSTR    "\x16"
+000b21    LDC       0x16
+000b23    NEWSTR    "\x17"
+000b2c    LDC       0x17
+000b2e    NEWSTR    "\x18"
+000b37    LDC       0x18
+000b39    NEWSTR    "\x19"
+000b42    LDC       0x19
+000b44    NEWSTR    "\x1a"
+000b4d    LDC       0x1a
+000b4f    NEWSTR    "\x1b"
+000b58    LDC       0x1b
+000b5a    NEWSTR    "\x1c"
+000b63    LDC       0x1c
+000b65    NEWSTR    "\x1d"
+000b6e    LDC       0x1d
+000b70    NEWSTR    "\x1e"
+000b79    LDC       0x1e
+000b7b    NEWSTR    "\x1f"
+000b84    LDC       0x1f
+000b86    NEWSTR    " "
+000b8f    LDC       0x20
+000b91    NEWSTR    "!"
+000b9a    LDC       0x21
+000b9c    NEWSTR    "\""
+000ba5    LDC       0x22
+000ba7    NEWSTR    "#"
+000bb0    LDC       0x23
+000bb2    NEWSTR    "$"
+000bbb    LDC       0x24
+000bbd    NEWSTR    "%"
+000bc6    LDC       0x25
+000bc8    NEWSTR    "&"
+000bd1    LDC       0x26
+000bd3    NEWSTR    "'"
+000bdc    LDC       0x27
+000bde    NEWSTR    "("
+000be7    LDC       0x28
+000be9    NEWSTR    ")"
+000bf2    LDC       0x29
+000bf4    NEWSTR    "*"
+000bfd    LDC       0x2a
+000bff    NEWSTR    "+"
+000c08    LDC       0x2b
+000c0a    NEWSTR    ","
+000c13    LDC       0x2c
+000c15    NEWSTR    "-"
+000c1e    LDC       0x2d
+000c20    NEWSTR    "."
+000c29    LDC       0x2e
+000c2b    NEWSTR    "/"
+000c34    LDC       0x2f
+000c36    NEWSTR    "0"
+000c3f    LDC       0x30
+000c41    NEWSTR    "1"
+000c4a    LDC       0x31
+000c4c    NEWSTR    "2"
+000c55    LDC       0x32
+000c57    NEWSTR    "3"
+000c60    LDC       0x33
+000c62    NEWSTR    "4"
+000c6b    LDC       0x34
+000c6d    NEWSTR    "5"
+000c76    LDC       0x35
+000c78    NEWSTR    "6"
+000c81    LDC       0x36
+000c83    NEWSTR    "7"
+000c8c    LDC       0x37
+000c8e    NEWSTR    "8"
+000c97    LDC       0x38
+000c99    NEWSTR    "9"
+000ca2    LDC       0x39
+000ca4    NEWSTR    ":"
+000cad    LDC       0x3a
+000caf    NEWSTR    ";"
+000cb8    LDC       0x3b
+000cba    NEWSTR    "<"
+000cc3    LDC       0x3c
+000cc5    NEWSTR    "="
+000cce    LDC       0x3d
+000cd0    NEWSTR    ">"
+000cd9    LDC       0x3e
+000cdb    NEWSTR    "?"
+000ce4    LDC       0x3f
+000ce6    NEWSTR    "@"
+000cef    LDC       0x40
+000cf1    NEWSTR    "A"
+000cfa    LDC       0x41
+000cfc    NEWSTR    "B"
+000d05    LDC       0x42
+000d07    NEWSTR    "C"
+000d10    LDC       0x43
+000d12    NEWSTR    "D"
+000d1b    LDC       0x44
+000d1d    NEWSTR    "E"
+000d26    LDC       0x45
+000d28    NEWSTR    "F"
+000d31    LDC       0x46
+000d33    NEWSTR    "G"
+000d3c    LDC       0x47
+000d3e    NEWSTR    "H"
+000d47    LDC       0x48
+000d49    NEWSTR    "I"
+000d52    LDC       0x49
+000d54    NEWSTR    "J"
+000d5d    LDC       0x4a
+000d5f    NEWSTR    "K"
+000d68    LDC       0x4b
+000d6a    NEWSTR    "L"
+000d73    LDC       0x4c
+000d75    NEWSTR    "M"
+000d7e    LDC       0x4d
+000d80    NEWSTR    "N"
+000d89    LDC       0x4e
+000d8b    NEWSTR    "O"
+000d94    LDC       0x4f
+000d96    NEWSTR    "P"
+000d9f    LDC       0x50
+000da1    NEWSTR    "Q"
+000daa    LDC       0x51
+000dac    NEWSTR    "R"
+000db5    LDC       0x52
+000db7    NEWSTR    "S"
+000dc0    LDC       0x53
+000dc2    NEWSTR    "T"
+000dcb    LDC       0x54
+000dcd    NEWSTR    "U"
+000dd6    LDC       0x55
+000dd8    NEWSTR    "V"
+000de1    LDC       0x56
+000de3    NEWSTR    "W"
+000dec    LDC       0x57
+000dee    NEWSTR    "X"
+000df7    LDC       0x58
+000df9    NEWSTR    "Y"
+000e02    LDC       0x59
+000e04    NEWSTR    "Z"
+000e0d    LDC       0x5a
+000e0f    NEWSTR    "["
+000e18    LDC       0x5b
+000e1a    NEWSTR    "\\"
+000e23    LDC       0x5c
+000e25    NEWSTR    "]"
+000e2e    LDC       0x5d
+000e30    NEWSTR    "^"
+000e39    LDC       0x5e
+000e3b    NEWSTR    "_"
+000e44    LDC       0x5f
+000e46    NEWSTR    "`"
+000e4f    LDC       0x60
+000e51    NEWSTR    "a"
+000e5a    LDC       0x61
+000e5c    NEWSTR    "b"
+000e65    LDC       0x62
+000e67    NEWSTR    "c"
+000e70    LDC       0x63
+000e72    NEWSTR    "d"
+000e7b    LDC       0x64
+000e7d    NEWSTR    "e"
+000e86    LDC       0x65
+000e88    NEWSTR    "f"
+000e91    LDC       0x66
+000e93    NEWSTR    "g"
+000e9c    LDC       0x67
+000e9e    NEWSTR    "h"
+000ea7    LDC       0x68
+000ea9    NEWSTR    "i"
+000eb2    LDC       0x69
+000eb4    NEWSTR    "j"
+000ebd    LDC       0x6a
+000ebf    NEWSTR    "k"
+000ec8    LDC       0x6b
+000eca    NEWSTR    "l"
+000ed3    LDC       0x6c
+000ed5    NEWSTR    "m"
+000ede    LDC       0x6d
+000ee0    NEWSTR    "n"
+000ee9    LDC       0x6e
+000eeb    NEWSTR    "o"
+000ef4    LDC       0x6f
+000ef6    NEWSTR    "p"
+000eff    LDC       0x70
+000f01    NEWSTR    "q"
+000f0a    LDC       0x71
+000f0c    NEWSTR    "r"
+000f15    LDC       0x72
+000f17    NEWSTR    "s"
+000f20    LDC       0x73
+000f22    NEWSTR    "t"
+000f2b    LDC       0x74
+000f2d    NEWSTR    "u"
+000f36    LDC       0x75
+000f38    NEWSTR    "v"
+000f41    LDC       0x76
+000f43    NEWSTR    "w"
+000f4c    LDC       0x77
+000f4e    NEWSTR    "x"
+000f57    LDC       0x78
+000f59    NEWSTR    "y"
+000f62    LDC       0x79
+000f64    NEWSTR    "z"
+000f6d    LDC       0x7a
+000f6f    NEWSTR    "{"
+000f78    LDC       0x7b
+000f7a    NEWSTR    "|"
+000f83    LDC       0x7c
+000f85    NEWSTR    "}"
+000f8e    LDC       0x7d
+000f90    NEWSTR    "~"
+000f99    LDC       0x7e
+000f9b    NEWSTR    "\u007f"
+000fa4    LDC       0x7f
+000fa6    NEWSTR    "\x80"
+000faf    LDC       0x80
+000fb8    NEWSTR    "\x81"
+000fc1    LDC       0x81
+000fca    NEWSTR    "\x82"
+000fd3    LDC       0x82
+000fdc    NEWSTR    "\x83"
+000fe5    LDC       0x83
+000fee    NEWSTR    "\x84"
+000ff7    LDC       0x84
+001000    NEWSTR    "\x85"
+001009    LDC       0x85
+001012    NEWSTR    "\x86"
+00101b    LDC       0x86
+001024    NEWSTR    "\x87"
+00102d    LDC       0x87
+001036    NEWSTR    "\x88"
+00103f    LDC       0x88
+001048    NEWSTR    "\x89"
+001051    LDC       0x89
+00105a    NEWSTR    "\x8a"
+001063    LDC       0x8a
+00106c    NEWSTR    "\x8b"
+001075    LDC       0x8b
+00107e    NEWSTR    "\x8c"
+001087    LDC       0x8c
+001090    NEWSTR    "\x8d"
+001099    LDC       0x8d
+0010a2    NEWSTR    "\x8e"
+0010ab    LDC       0x8e
+0010b4    NEWSTR    "\x8f"
+0010bd    LDC       0x8f
+0010c6    NEWSTR    "\x90"
+0010cf    LDC       0x90
+0010d8    NEWSTR    "\x91"
+0010e1    LDC       0x91
+0010ea    NEWSTR    "\x92"
+0010f3    LDC       0x92
+0010fc    NEWSTR    "\x93"
+001105    LDC       0x93
+00110e    NEWSTR    "\x94"
+001117    LDC       0x94
+001120    NEWSTR    "\x95"
+001129    LDC       0x95
+001132    NEWSTR    "\x96"
+00113b    LDC       0x96
+001144    NEWSTR    "\x97"
+00114d    LDC       0x97
+001156    NEWSTR    "\x98"
+00115f    LDC       0x98
+001168    NEWSTR    "\x99"
+001171    LDC       0x99
+00117a    NEWSTR    "\x9a"
+001183    LDC       0x9a
+00118c    NEWSTR    "\x9b"
+001195    LDC       0x9b
+00119e    NEWSTR    "\x9c"
+0011a7    LDC       0x9c
+0011b0    NEWSTR    "\x9d"
+0011b9    LDC       0x9d
+0011c2    NEWSTR    "\x9e"
+0011cb    LDC       0x9e
+0011d4    NEWSTR    "\x9f"
+0011dd    LDC       0x9f
+0011e6    NEWSTR    "\xa0"
+0011ef    LDC       0xa0
+0011f8    NEWSTR    "\xa1"
+001201    LDC       0xa1
+00120a    NEWSTR    "\xa2"
+001213    LDC       0xa2
+00121c    NEWSTR    "\xa3"
+001225    LDC       0xa3
+00122e    NEWSTR    "\xa4"
+001237    LDC       0xa4
+001240    NEWSTR    "\xa5"
+001249    LDC       0xa5
+001252    NEWSTR    "\xa6"
+00125b    LDC       0xa6
+001264    NEWSTR    "\xa7"
+00126d    LDC       0xa7
+001276    NEWSTR    "\xa8"
+00127f    LDC       0xa8
+001288    NEWSTR    "\xa9"
+001291    LDC       0xa9
+00129a    NEWSTR    "\xaa"
+0012a3    LDC       0xaa
+0012ac    NEWSTR    "\xab"
+0012b5    LDC       0xab
+0012be    NEWSTR    "\xac"
+0012c7    LDC       0xac
+0012d0    NEWSTR    "\xad"
+0012d9    LDC       0xad
+0012e2    NEWSTR    "\xae"
+0012eb    LDC       0xae
+0012f4    NEWSTR    "\xaf"
+0012fd    LDC       0xaf
+001306    NEWSTR    "\xb0"
+00130f    LDC       0xb0
+001318    NEWSTR    "\xb1"
+001321    LDC       0xb1
+00132a    NEWSTR    "\xb2"
+001333    LDC       0xb2
+00133c    NEWSTR    "\xb3"
+001345    LDC       0xb3
+00134e    NEWSTR    "\xb4"
+001357    LDC       0xb4
+001360    NEWSTR    "\xb5"
+001369    LDC       0xb5
+001372    NEWSTR    "\xb6"
+00137b    LDC       0xb6
+001384    NEWSTR    "\xb7"
+00138d    LDC       0xb7
+001396    NEWSTR    "\xb8"
+00139f    LDC       0xb8
+0013a8    NEWSTR    "\xb9"
+0013b1    LDC       0xb9
+0013ba    NEWSTR    "\xba"
+0013c3    LDC       0xba
+0013cc    NEWSTR    "\xbb"
+0013d5    LDC       0xbb
+0013de    NEWSTR    "\xbc"
+0013e7    LDC       0xbc
+0013f0    NEWSTR    "\xbd"
+0013f9    LDC       0xbd
+001402    NEWSTR    "\xbe"
+00140b    LDC       0xbe
+001414    NEWSTR    "\xbf"
+00141d    LDC       0xbf
+001426    NEWSTR    "\xc0"
+00142f    LDC       0xc0
+001438    NEWSTR    "\xc1"
+001441    LDC       0xc1
+00144a    NEWSTR    "\xc2"
+001453    LDC       0xc2
+00145c    NEWSTR    "\xc3"
+001465    LDC       0xc3
+00146e    NEWSTR    "\xc4"
+001477    LDC       0xc4
+001480    NEWSTR    "\xc5"
+001489    LDC       0xc5
+001492    NEWSTR    "\xc6"
+00149b    LDC       0xc6
+0014a4    NEWSTR    "\xc7"
+0014ad    LDC       0xc7
+0014b6    NEWSTR    "\xc8"
+0014bf    LDC       0xc8
+0014c8    NEWSTR    "\xc9"
+0014d1    LDC       0xc9
+0014da    NEWSTR    "\xca"
+0014e3    LDC       0xca
+0014ec    NEWSTR    "\xcb"
+0014f5    LDC       0xcb
+0014fe    NEWSTR    "\xcc"
+001507    LDC       0xcc
+001510    NEWSTR    "\xcd"
+001519    LDC       0xcd
+001522    NEWSTR    "\xce"
+00152b    LDC       0xce
+001534    NEWSTR    "\xcf"
+00153d    LDC       0xcf
+001546    NEWSTR    "\xd0"
+00154f    LDC       0xd0
+001558    NEWSTR    "\xd1"
+001561    LDC       0xd1
+00156a    NEWSTR    "\xd2"
+001573    LDC       0xd2
+00157c    NEWSTR    "\xd3"
+001585    LDC       0xd3
+00158e    NEWSTR    "\xd4"
+001597    LDC       0xd4
+0015a0    NEWSTR    "\xd5"
+0015a9    LDC       0xd5
+0015b2    NEWSTR    "\xd6"
+0015bb    LDC       0xd6
+0015c4    NEWSTR    "\xd7"
+0015cd    LDC       0xd7
+0015d6    NEWSTR    "\xd8"
+0015df    LDC       0xd8
+0015e8    NEWSTR    "\xd9"
+0015f1    LDC       0xd9
+0015fa    NEWSTR    "\xda"
+001603    LDC       0xda
+00160c    NEWSTR    "\xdb"
+001615    LDC       0xdb
+00161e    NEWSTR    "\xdc"
+001627    LDC       0xdc
+001630    NEWSTR    "\xdd"
+001639    LDC       0xdd
+001642    NEWSTR    "\xde"
+00164b    LDC       0xde
+001654    NEWSTR    "\xdf"
+00165d    LDC       0xdf
+001666    NEWSTR    "\xe0"
+00166f    LDC       0xe0
+001678    NEWSTR    "\xe1"
+001681    LDC       0xe1
+00168a    NEWSTR    "\xe2"
+001693    LDC       0xe2
+00169c    NEWSTR    "\xe3"
+0016a5    LDC       0xe3
+0016ae    NEWSTR    "\xe4"
+0016b7    LDC       0xe4
+0016c0    NEWSTR    "\xe5"
+0016c9    LDC       0xe5
+0016d2    NEWSTR    "\xe6"
+0016db    LDC       0xe6
+0016e4    NEWSTR    "\xe7"
+0016ed    LDC       0xe7
+0016f6    NEWSTR    "\xe8"
+0016ff    LDC       0xe8
+001708    NEWSTR    "\xe9"
+001711    LDC       0xe9
+00171a    NEWSTR    "\xea"
+001723    LDC       0xea
+00172c    NEWSTR    "\xeb"
+001735    LDC       0xeb
+00173e    NEWSTR    "\xec"
+001747    LDC       0xec
+001750    NEWSTR    "\xed"
+001759    LDC       0xed
+001762    NEWSTR    "\xee"
+00176b    LDC       0xee
+001774    NEWSTR    "\xef"
+00177d    LDC       0xef
+001786    NEWSTR    "\xf0"
+00178f    LDC       0xf0
+001798    NEWSTR    "\xf1"
+0017a1    LDC       0xf1
+0017aa    NEWSTR    "\xf2"
+0017b3    LDC       0xf2
+0017bc    NEWSTR    "\xf3"
+0017c5    LDC       0xf3
+0017ce    NEWSTR    "\xf4"
+0017d7    LDC       0xf4
+0017e0    NEWSTR    "\xf5"
+0017e9    LDC       0xf5
+0017f2    NEWSTR    "\xf6"
+0017fb    LDC       0xf6
+001804    NEWSTR    "\xf7"
+00180d    LDC       0xf7
+001816    NEWSTR    "\xf8"
+00181f    LDC       0xf8
+001828    NEWSTR    "\xf9"
+001831    LDC       0xf9
+00183a    NEWSTR    "\xfa"
+001843    LDC       0xfa
+00184c    NEWSTR    "\xfb"
+001855    LDC       0xfb
+00185e    NEWSTR    "\xfc"
+001867    LDC       0xfc
+001870    NEWSTR    "\xfd"
+001879    LDC       0xfd
+001882    NEWSTR    "\xfe"
+00188b    LDC       0xfe
+001894    NEWSTR    "\xff"
+00189d    LDC       0xff
+0018a6    NEW_TABLE
+0018a7    NEW_FN  [argc=0]    001903
+0018b2    ENDSTK
+0018b3    LDC       0x49
+0018b5    LDC       0x23
+0018b7    LDC       0x12
+0018b9    LDC       0xff
+0018c2    NEW_LIST
+0018c3    ENDSTK
+0018c4    NEW_LIST
+0018c5    LDC       0xd2
+0018ce    LDLOC     0
+0018d0    INIT_FOR
+0018d1    ENDSTK
+0018d2    ITER
+0018d3    BR.FALSE    0018f9
+0018dc    STLOC     3
+0018de    LDLOC     1
+0018e0    INIT_METHOD_CALL    "push"
+0018e9    LDLOC     3
+0018eb    LDLOC     2
+0018ed    XOR
+0018ee    CALL
+0018ef    POP
+0018f0    BR        0018d2
+0018f9    END_FOR
+0018fa    POP
+0018fb    LDLOC     1
+0018fd    RET
+0018fe    LDC       UNDEF
+0018ff    RET
+001900    POP
+001901    POP
+001902    POP
+001903    NEW_CLOSURE  [argc=2, nenv=1]    001957
+00190e    ENDSTK
+00190f    NEW_LIST
+001910    LDC       0
+001911    LDLOC     0
+001913    INIT_FOR
+001914    ENDSTK
+001915    ITER
+001916    BR.FALSE    00194a
+00191f    STLOC     4
+001921    LDLOC     2
+001923    INIT_METHOD_CALL    "push"
+00192c    ULOAD     0
+00192e    LDLOC     4
+001930    GET
+001931    LDLOC     1
+001933    LDLOC     3
+001935    LDC       3
+001936    AND
+001937    GET
+001938    XOR
+001939    CALL
+00193a    POP
+00193b    LDLOC     3
+00193d    LDC       1
+00193e    ADD
+00193f    STLOC     3
+001941    BR        001915
+00194a    END_FOR
+00194b    POP
+00194c    LDLOC     2
+00194e    RET
+00194f    LDC       UNDEF
+001950    RET
+001951    POP
+001952    POP
+001953    POP
+001954    POP
+001955    LDC       UNDEF
+001956    LDC       UNDEF
+001957    ENDSTK
+001958    LDC       0xcb
+001961    LDC       0x9e
+00196a    LDC       0xb3
+001973    LDC       0x48
+001975    LDC       0xf2
+00197e    LDC       0x95
+001987    LDC       0xaf
+001990    LDC       0x43
+001992    LDC       0xe0
+00199b    LDC       0xb8
+0019a4    LDC       0x9f
+0019ad    LDC       0x45
+0019af    LDC       0xf4
+0019b8    LDC       0x81
+0019c1    LDC       0xa5
+0019ca    LDC       0x72
+0019cc    LDC       0xe2
+0019d5    LDC       0x9e
+0019de    LDC       0xb5
+0019e7    LDC       0x72
+0019e9    LDC       0xff
+0019f2    LDC       0x98
+0019fb    LDC       0xa4
+001a04    LDC       0x43
+001a06    LDC       0xef
+001a0f    LDC       0xae
+001a18    LDC       0xb2
+001a21    LDC       0x1e
+001a23    LDC       0xed
+001a2c    LDC       0x94
+001a35    LDC       0xf3
+001a3e    LDC       0x5f
+001a40    LDC       0xe8
+001a49    LDC       0x94
+001a52    LDC       0x9f
+001a5b    LDC       0x59
+001a5d    LDC       0xf3
+001a66    LDC       0x98
+001a6f    LDC       0xb3
+001a78    LDC       0x72
+001a7a    LDC       0xf9
+001a83    LDC       0x84
+001a8c    LDC       0xb4
+001a95    LDC       0x72
+001a97    LDC       0xee
+001aa0    LDC       0x82
+001aa9    LDC       0xa5
+001ab2    LDC       0x49
+001ab4    LDC       0xc4
+001abd    LDC       0x90
+001ac6    LDC       0x9f
+001acf    LDC       0x5e
+001ad1    LDC       0xf2
+001ada    LDC       0x95
+001ae3    LDC       0xa5
+001aec    LDC       0x72
+001aee    LDC       0xf8
+001af7    LDC       0x99
+001b00    LDC       0xa1
+001b09    LDC       0x43
+001b0b    LDC       0xf5
+001b14    LDC       0x94
+001b1d    LDC       0xac
+001b26    LDC       0x72
+001b28    LDC       0xfa
+001b31    LDC       0x85
+001b3a    LDC       0xb4
+001b43    LDC       0x19
+001b45    LDC       0xf8
+001b4e    LDC       0x9a
+001b57    LDC       0xbd
+001b60    NEW_LIST
+001b61    NEWSTR    "Input the flag: "
+001b6a    PRINT
+001b6b    LDLOC     0
+001b6d    NEWSTR    "read"
+001b76    GET
+001b77    INIT_CALL
+001b78    LDLOC     0
+001b7a    CALL
+001b7b    LDLOC     2
+001b7d    INIT_CALL
+001b7e    CALL
+001b7f    LDLOC     3
+001b81    INIT_CALL
+001b82    LDLOC     5
+001b84    LDLOC     6
+001b86    CALL
+001b87    NEW_CLOSURE  [argc=1, nenv=1]    001be3
+001b92    LDLOC     0
+001b94    LEN
+001b95    ULOAD     0
+001b97    LEN
+001b98    CMP.EQ
+001b99    NOT
+001b9a    BR.FALSE    001ba5
+001ba3    LDC       FALSE
+001ba4    RET
+001ba5    LDC       0
+001ba6    LDLOC     0
+001ba8    INIT_FOR
+001ba9    ENDSTK
+001baa    ITER
+001bab    BR.FALSE    001bd9
+001bb4    STLOC     2
+001bb6    LDLOC     2
+001bb8    ULOAD     0
+001bba    LDLOC     1
+001bbc    GET
+001bbd    CMP.EQ
+001bbe    NOT
+001bbf    BR.FALSE    001bca
+001bc8    LDC       FALSE
+001bc9    RET
+001bca    LDLOC     1
+001bcc    LDC       1
+001bcd    ADD
+001bce    STLOC     1
+001bd0    BR        001baa
+001bd9    END_FOR
+001bda    POP
+001bdb    LDC       TRUE
+001bdc    RET
+001bdd    LDC       UNDEF
+001bde    RET
+001bdf    POP
+001be0    POP
+001be1    LDC       UNDEF
+001be2    
+001be3    LDLOC     8
+001be5    INIT_CALL
+001be6    LDLOC     7
+001be8    CALL
+001be9    LDLOC     9
+001beb    BR.FALSE    001c07
+001bf4    NEWSTR    "Yes you got the flag! Submit with the input"
+001bfd    PRINT
+001bfe    BR        001c11
+001c07    NEWSTR    "The password is wrong!"
+001c10    PRINT
+001c11    HALT
